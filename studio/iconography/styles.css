@@ -1,0 +1,13 @@
+body {
+	font-family: didot, serif;
+	color: white;
+	font-weight: lighter;
+	font-size: 20px
+	
+
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
