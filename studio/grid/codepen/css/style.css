@@ -1,0 +1,41 @@
+#wrapper {
+  font-family: didot;
+  width: 1000px;
+  line-height : 1.3em;
+  font-size: 13px;
+  
+  
+
+}
+
+#wrapper img {
+  width: 880px;
+  line-height: 2em;
+  
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 10px;
+
+}
+p {     float: left;
+        min-height: 1px; 
+        width: 26.666%; 
+       
+}
+
+.aa {
+  text-align:justify;
+  padding:15px;
+}
+.bb {
+  text-align:justify;
+  padding:15px;
+}
+.cc {
+  text-align:justify;
+  padding:15px;
+}
+
