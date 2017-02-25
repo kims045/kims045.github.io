@@ -1,0 +1,30 @@
+body {
+	background-color: #FFF7D6;
+	background-image: url(../media/yellbackground.jpg);
+	position: absolute;
+	margin-left: 45%;
+	margin-top: 100px;
+}
+
+h1 {
+	font-family: didot, serif;
+	color: #B5DFFF;
+	font-size: 40px;
+	
+}
+
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #B5DFFF;
+}
+
+a:hover {
+	color:  #FFC9C0;
+}
+
+nav a {
+	margin-top: 300px;
+
+}
+

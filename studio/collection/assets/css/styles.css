@@ -1,0 +1,18 @@
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #574715;
+}
+
+a:hover {
+	color: white;
+
+}
+
+h1 {
+	font-family: didot, serif;
+	top: 40%;
+    left: 45%;
+    position: absolute;
+
+     }
