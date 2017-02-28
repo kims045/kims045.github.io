@@ -1,0 +1,153 @@
+html, body { margin: 0; padding: 0; overflow: hidden; }
+
+body { background: black; }
+
+div { box-sizing: border-box; }
+
+
+.column {
+  padding: 2.5%;
+  float: left;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.clear { clear: both; }
+
+.seventh { width: 14.2%; }
+
+.circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  background-color: red;
+
+}
+.circle { display: none; }
+.red { background-color: #FF5722; }
+.red:hover { 
+  cursor: pointer;
+  display:none;
+
+}
+.redyel { background-color: #FF9800 }
+.yelred { background-color: #FFC107 }
+.yel { background-color:  #FFEB3B }
+.yelgre { background-color: #CDDC39 }
+.greyel { background-color: #8BC34A }
+.green { background-color: #4CAF50 }
+
+
+/*.circle.red { animation: blinker 1s linear infinite;}
+.circle.redyel { animation: blinker 2s linear infinite; } 
+.circle.yelred { animation: blinker 5s linear infinite; }
+.circle.yel { animation: blinker 10s linear infinite; }
+.circle.yelgre { animation: blinker 20s linear infinite;}
+.circle.greyel { animation: blinker 40s linear infinite; }
+.circle.green { animation: blinker 60s linear infinite; }
+*/
+
+
+.apple {
+padding-top: 100px;
+ width: 9%;
+ position: relative;
+ font-family: Helvetica;
+   animation: words 6s linear infinite;}
+  @-webkit-keyframes words {
+  0%   { -webkit-transform: translateX(-100%); }
+  100% { -webkit-transform: translateX(100%); }
+}
+
+.banana{
+ padding-top: -10px;
+ height: 20%;  
+ width: 17%;
+ position: relative;
+ font-family: Helvetica;
+   animation: words 5s linear infinite;}
+  @-webkit-keyframes words {
+  0%   { -webkit-transform: translateX(-100%); }
+  100% { -webkit-transform: translateX(100%); }
+}
+
+.carrot{
+ height: 20%;  
+ width: 25%;
+ position: relative;
+ font-family: Helvetica;
+   animation: words 4s linear infinite;}
+  @-webkit-keyframes words {
+  0%   { -webkit-transform: translateX(-100%); }
+  100% { -webkit-transform: translateX(100%); }
+}
+.daisy{
+ height: 20%;  
+ width: 30%;
+ position: relative;
+ font-family: Helvetica;
+   animation: words 3s linear infinite;}
+  @-webkit-keyframes words {
+  0%   { -webkit-transform: translateX(-100%); }
+  100% { -webkit-transform: translateX(100%); }
+}
+.eva{
+ height: 20%;  
+ width: 36%;
+ position: relative;
+ font-family: Helvetica;
+   animation: words 2.5s linear infinite;}
+  @-webkit-keyframes words {
+  0%   { -webkit-transform: translateX(-100%); }
+  100% { -webkit-transform: translateX(100%); }
+}
+.fudge{
+ height: 20%;  
+ width: 40%;
+ position: relative;
+ font-family: Helvetica;
+   animation: words 2s linear infinite;}
+  @-webkit-keyframes words {
+  0%   { -webkit-transform: translateX(-100%); }
+  100% { -webkit-transform: translateX(100%); }
+}
+.gross{
+ height: 20%;  
+ width: 46%;
+
+ position: relative;
+ font-family: Helvetica;
+   animation: words 1s linear infinite;}
+  @-webkit-keyframes words {
+  0%   { -webkit-transform: translateX(-100%); }
+  100% { -webkit-transform: translateX(100%); }
+}
+.one { animation: words 5s linear infinite;}}
+.two { animation: blinker 12s linear infinite;}
+.thr { animation: blinker 8s linear infinite;}
+.for { animation: blinker 5s linear infinite;}
+.fiv { animation: blinker 2s linear infinite;}
+.six { animation: blinker 1s linear infinite;}
+.sev { animation: blinker .7s linear infinite;}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+#monday { animation: blinker 20s linear infinite; }
+#tuesday { animation: blinker 12s linear infinite; }
+#wednesday { animation: blinker 8s linear infinite; }
+#thursday { animation: blinker 5s linear infinite; }
+#friday { animation: blinker 2s linear infinite; }
+#saturday { animation: blinker 1s linear infinite; }
+#sunday { animation: blinker .1s linear infinite; }
+
+
+
+
+
