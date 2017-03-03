@@ -2,6 +2,8 @@ h1 {
 	font-family: "Sole Serif Big Display Big Display Medium";
 	font-weight: bold;
 	font-style: normal;
+	font-size: 40px;
+	text-align: center;
 
 
 }
@@ -10,19 +12,37 @@ h2 {
 	font-family: "Sole Serif Big Display Big Display Medium";
 	font-weight: bolder;
 	font-style: normal;
-
+	font-size: 20px;
+	margin-left: 50px;
+	text-align: center;
+	margin-left: 370px;
 }
 
-h2 {
 
-}
 
 body { /* replace with your selector */
 	font-family: "Sole Serif Big Display Big Display Medium";
 	font-weight: normal;
 	font-style: normal;
+	display: block;
+
 }
 
-
+p {
+	margin-left: 540px;
+	margin-top: -490px;
+	width: 600px;
 }
 
+img {
+	width: 400px;
+	margin-left: 90px;
+	}
+
+.ee {
+
+	font-size: 14px;
+	margin-top: -10px;
+	
+	
+}
