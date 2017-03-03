@@ -1,0 +1,25 @@
+body {
+	background-image: url(../media/pinkbackground.jpg);
+	position:absolute; 
+	font-family: didot, serif;
+	color: #8B572A;
+	margin-left: 30%;
+	margin-top:80px;
+}
+
+nav a:link, nav a:visited {
+    text-decoration: none;
+    color: #8B572A;
+}
+
+nav a:hover {
+	color: #D7EEFF;
+
+}
+
+.boxed {
+ 	border: 2px #8B572A;
+ 	border-style: dotted;
+	background-color: white;
+	width: 500px;
+}

@@ -1,3 +1,237 @@
 body {
 	background-image: url(../media/pinkbackground.jpg);
-}	
+	position:absolute; 
+}
+
+nav {
+	font-family: didot, serif;
+	position: fixed;
+	z-index: 100;
+	margin: 3px;
+
+}
+
+
+nav a {
+	background-color: #FFF7D6;
+	color: black;
+	padding: 10px;
+	display: inline-block;
+	margin-bottom: 4px;
+		color: #8B572A;
+}
+
+nav a:link, nav a:visited {
+    text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #F08080;
+	
+}
+
+nav a:hover {
+	color: white;
+	border-color: white;
+	
+
+}
+
+main{
+	z-index:1;
+}
+section{
+	width:75%;
+	height:100vh;
+	background-size: 100%;
+	margin-bottom: 10vh;
+	display: inline-block;
+	font-family: didot, serif;
+	font-size: 40px;
+	color: #8B572A;
+}
+
+/*#williamsburg, #soho, #east, #green {
+	background-image :url(../media/circle.png) ;
+	background-position: center;
+	background-size: 100%;
+	height: 100%;
+
+}*/
+
+/*#will {
+	width: 100%;
+	height:100%;
+}
+#so {
+	width: 50%;
+}
+#east {
+	width: 50%;
+}
+#green {
+	width: 50%;
+}*/
+.desserts{
+	width: 100;
+	text-align: center;
+	padding: 50px;
+
+}
+
+
+
+
+.col {
+	display: inline-block;
+	margin: 10px 10px 10px;
+	padding: 10px;
+	width:75%;
+	height:100vh;
+	background-size: 100%;
+
+/*	padding: 20px;*/
+/*	margin-bottom: 10vh;*/
+/*	width:50%;*/
+/*	background-size: 100%;
+	height:100%;*/
+
+/*	border: 1px solid black;*/
+	vertical-align: top;
+
+
+}
+
+
+.circle {
+	border-radius: 100%;
+	background-color: white;
+	position: relative;
+	border-style: dotted;
+	border-color: #FFF7D6;
+
+}
+
+.circle1{
+	width: 250px;
+	height:250px;
+	margin-left: 5vw;
+	margin-top: -2vh;
+
+}
+
+.circle2{
+	width: 300px;
+	height:300px;
+	margin-top: -15vh;
+	margin-left: -58vw;
+
+}
+
+.circle3{
+	width: 400px;
+	height:400px;
+	margin-left: 30vw;
+	margin-top: -24vh;
+}
+
+.black {
+	width: 400px;
+	height:400px;
+	margin-left: 40vw;
+	margin-top: -24vh;
+
+}
+.circle4{
+	width: 200px;
+	height:200px;
+	margin-left:-30vw;
+	margin-top: -39vh;
+}
+
+.purmaca {
+	width: 200px;
+	height:200px;
+	margin-left:-66vw;
+	margin-top: -19vh;
+
+}
+
+
+
+.will img{
+	width: 160px;
+	padding: 43px;
+	
+
+}
+
+.so img{
+	width: 180px;
+	padding: 49px;
+	padding-top: 64px;
+}
+
+.purple  img{
+	width: 180px;
+	padding: 49px;
+	padding-top: 50px;
+
+}
+
+.east img {
+	width: 260px;
+	padding: 17px;
+	margin-top:55px;
+}
+
+.dish img {
+	margin-top: 50px;
+	width: 240px;
+	height: 260px;
+}
+
+
+.topping img {
+	width: 280px;
+	margin-left: -6px;
+	margin-top:39px;
+}
+
+.beige img {
+	width: 260px;
+	padding: 17px;
+	margin-top:95px;
+}
+
+.green img {
+	margin: -11px; 
+	margin-left: -10px;
+	width: 120px;
+	margin-top: 55px;
+}
+
+.dish img {
+	margin-top: 50px;
+	width: 240px;
+	height: 260px;
+}
+
+.pur img {
+	margin: -11px; 
+	margin-left: -10px;
+	width: 154px;
+	margin-top: 31px;
+}
+
+
+
+#navi   {
+text-decoration: none;
+color:#8B572A;
+}
+
+#navi hover{
+	color: white;
+	border-color: white;
+
