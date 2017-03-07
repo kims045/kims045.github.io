@@ -27,6 +27,7 @@ nav a:link, nav a:visited {
 
 nav a:hover {
 	background-color: #F08080;
+	transition: background 1s;
 	
 }
 
@@ -39,12 +40,14 @@ nav a:hover {
 
 main{
 	z-index:1;
+
+
 }
 section{
 	width:75%;
 	height:100vh;
 	background-size: 100%;
-	
+	border color: 1px;
 	margin-bottom: 10vh;
 	display: inline-block;
 	font-family: didot, serif;
@@ -55,8 +58,9 @@ section{
 section h2 {
 	display: block;
 	margin: 0;
-	font-size: 40px;
+	font-size: 60px;
 	font-weight: normal;
+	
 
 }
 
@@ -81,11 +85,10 @@ section h2 {
 #green {
 	width: 50%;
 }*/
-.desserts{
+ .desserts{
 	width: 100;
 	text-align: center;
 	padding: 50px;
-
 }
 
 
@@ -95,9 +98,10 @@ section h2 {
 	display: inline-block;
 	margin: 10px 10px 10px;
 	padding: 10px;
-	width:75%;
+	width:80%;
 	height:100vh;
 	background-size: 100%;
+
 
 /*	padding: 20px;*/
 /*	margin-bottom: 10vh;*/
@@ -111,6 +115,28 @@ section h2 {
 
 }
 
+#williamsburg  {
+	width: 100%;
+}
+
+#will h2 {
+	margin-top: -40px;
+
+}
+
+#soho  {
+	width: 100%;
+}
+
+#east  {
+	width: 100%;
+}
+
+#green {
+	width: 100%;
+}
+
+
 
 .circle {
 	border-radius: 100%;
@@ -118,102 +144,82 @@ section h2 {
 	position: relative;
 	border-style: dotted;
 	border-color: #FFF7D6;
+	background-size: cover;
+	margin-top: 30px;
+	display: inline-block;
+	margin-top: 210px;
+
+}
+.circle a{
+	width: 100%;
+	height: 100%;
+	display: block;
 
 }
 
-.circle1{
-	width: 250px;
-	height:250px;
-	margin-left: 14vw;
-	margin-top: -2vh;
-
+.circle:hover {
+	opacity: 0.5;
+	transition: 1s;
 }
+
+	.circle .label {
+		display: none;
+	}
+
+	.circle:hover .label {
+		display: block;
+		font-size: 20px;
+		opacity :200%;
+		padding: 30px;
+		z-index: 100px;
+
+		}
+	
+
+
+.circle1 {
+	width: 160px;
+	height:160px;
+	
+	}
 
 .circle2{
-	width: 300px;
-	height:300px;
-	margin-top: -25vh;
-	margin-left: -38vw;
-
-}
-
-.circle3{
-	width: 400px;
-	height:400px;
-	margin-left: 39vw;
-	margin-top: -30vh;
-}
-.circle4{
-	width: 200px;
-	height:200px;
-	margin-left:21vw;
-	margin-top: -19vh;
-}
-
-.circle5{
-	width: 250px;
-	height:250px;
-	margin-left: -25vw;
-	margin-top: -34vh;
-}
-
-
-.maca img{
-	width: 170px;
-	padding: 43px;
+	width: 160px;
+	height:160px;
 	
 
 }
 
-.ice img{
-	width: 170px;
-	padding: 59px;
+.circle3{
+	width: 160px;
+	height:160px;
+	
+	
+}
+.circle4{
+	width: 160px;
+	height:160px;
+
+	
+	
 }
 
-.cupcake img {
-	width: 280px;
-	padding: 17px;
-	margin-top:35px;
+.circle5{
+	width: 160px;
+	height:160px;
+	
 }
 
-.coffee img {
-	margin: -11px; 
-	margin-left: -10px;
-	width: 120px;
+h2 {
+	font-size: 40px;
 }
-
-.choco img {
-	width: 150px;
-	margin-top: -5px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #navi   {
 text-decoration: none;
 color:#8B572A;
 }
 
-#navi hover{
+#navi:hover{
 	color: white;
 	border-color: white;
 

@@ -2,15 +2,18 @@ body {
 	background-color: #FFF7D6;
 	background-image: url(../media/yellbackground.jpg);
 	position: absolute;
-	margin-left: 45%;
+	margin-left: 42vw;
 	margin-top: 100px;
+
+
 }
 
 h1 {
 	font-family: didot, serif;
 	color: #B5DFFF;
 	font-size: 40px;
-	
+	display: inline-block;
+	margin-top: 10vh;
 }
 
 
@@ -21,6 +24,8 @@ a:link, a:visited{
 
 a:hover {
 	color:  #FFC9C0;
+	transition: 1s;
+	
 }
 
 nav a {

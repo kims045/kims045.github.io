@@ -1,0 +1,97 @@
+body {
+	background-image: url(../media/pinkbackground.jpg);
+	position:absolute; 
+	z-index: 100;
+}
+
+nav {
+	font-family: didot, serif;
+	position: fixed;
+	display: block;
+	z-index: 1;
+	margin-left: 325px;
+	
+}
+	
+nav a {
+	background-color: #FFF7D6;
+	color: black;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	display: inline-block;
+	margin-bottom: 4px;
+	color: #8B572A;
+}
+
+nav a:link, nav a:visited {
+    text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #F08080;
+	transition: background 1s;
+	
+}
+
+nav a:hover {
+	color: white;
+	border-color: white;
+
+}
+
+main {
+	margin-top:200px;
+	margin-left: 480px;
+	font-family: didot, serif;
+	width: 24vw;
+	background-color: #FFDBD5;
+
+
+
+}
+
+main a:link, main a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+main a:hover {
+	color: #F08080;
+	border-color: white;
+	transition: 1s;
+	
+}
+
+h1 {
+	color: #8B572A;
+}
+
+
+a {
+	font-family: didot, serif;
+	color: #8B572A;
+
+
+}
+a:link,  a:visited {
+    text-decoration: none;
+}
+a:hover {
+	
+	transition: background 1s;
+	
+}
+
+a:hover {
+	color: white;
+	border-color: white;
+
+
+
+
+
+
+
+
+

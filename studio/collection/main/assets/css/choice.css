@@ -27,6 +27,7 @@ nav a:link, nav a:visited {
 
 nav a:hover {
 	background-color: #F08080;
+	transition: background 1s;
 	
 }
 
@@ -49,7 +50,11 @@ section{
 	font-family: didot, serif;
 	font-size: 40px;
 	color: #8B572A;
+	width: 100%;
+
 }
+
+
 
 /*#williamsburg, #soho, #east, #green {
 	background-image :url(../media/circle.png) ;
@@ -86,9 +91,10 @@ section{
 	display: inline-block;
 	margin: 10px 10px 10px;
 	padding: 10px;
-	width:75%;
+	width:100%;
 	height:100vh;
 	background-size: 100%;
+	margin-left: 50px;
 
 /*	padding: 20px;*/
 /*	margin-bottom: 10vh;*/
@@ -104,134 +110,92 @@ section{
 
 
 .circle {
-	border-radius: 100%;
+	border-radius: 10%;
 	background-color: white;
 	position: relative;
 	border-style: dotted;
 	border-color: #FFF7D6;
+	background-size: cover;
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 10px;
+
+}
+.circle a{
+	width: 10%;
+	height: 100%;
+	display: block;
+	margin-top: -300px;
+
+
+}
+
+.circle:hover {
+	opacity: 0.5;
+	transition: 1s;
+}
+
+	.circle .label {
+		display: none;
+	}
+
+	.circle:hover .label {
+		display: block;
+		font-size: 20px;
+		opacity :200%;
+		padding: 30px;
+		z-index: 100px;
 
 }
 
 .circle1{
-	width: 250px;
-	height:250px;
-	margin-left: 5vw;
-	margin-top: -2vh;
+	width: 130px;
+	height:130px;
+	margin-left: -150px;
+	margin-top:
 
 }
 
 .circle2{
-	width: 300px;
-	height:300px;
-	margin-top: -15vh;
-	margin-left: -58vw;
+	width: 130px;
+	height:130px;
+	margin-top: 
+	margin-left: 
 
 }
 
 .circle3{
-	width: 400px;
-	height:400px;
-	margin-left: 30vw;
-	margin-top: -24vh;
+	width: 130px;
+	height:130px;
+	margin-left:
+	margin-top: 
 }
 
-.black {
-	width: 400px;
-	height:400px;
-	margin-left: 40vw;
-	margin-top: -24vh;
-
-}
 .circle4{
-	width: 200px;
-	height:200px;
-	margin-left:-30vw;
-	margin-top: -39vh;
+	width: 130px;
+	height:130px;
+	margin-left:
+	margin-top: 
 }
 
-.purmaca {
-	width: 200px;
-	height:200px;
-	margin-left:-66vw;
-	margin-top: -19vh;
+a {
+	font-family: didot, serif;
+	color: #8B572A;
+
 
 }
-
-
-
-.will img{
-	width: 160px;
-	padding: 43px;
+a:link,  a:visited {
+    text-decoration: none;
+}
+a:hover {
 	
-
+	transition: background 1s;
+	
 }
 
-.so img{
-	width: 180px;
-	padding: 49px;
-	padding-top: 64px;
-}
-
-.purple  img{
-	width: 180px;
-	padding: 49px;
-	padding-top: 50px;
-
-}
-
-.east img {
-	width: 260px;
-	padding: 17px;
-	margin-top:55px;
-}
-
-.dish img {
-	margin-top: 50px;
-	width: 240px;
-	height: 260px;
-}
-
-
-.topping img {
-	width: 280px;
-	margin-left: -6px;
-	margin-top:39px;
-}
-
-.beige img {
-	width: 260px;
-	padding: 17px;
-	margin-top:95px;
-}
-
-.green img {
-	margin: -11px; 
-	margin-left: -10px;
-	width: 120px;
-	margin-top: 55px;
-}
-
-.dish img {
-	margin-top: 50px;
-	width: 240px;
-	height: 260px;
-}
-
-.pur img {
-	margin: -11px; 
-	margin-left: -10px;
-	width: 154px;
-	margin-top: 31px;
-}
-
-
-
-#navi   {
-text-decoration: none;
-color:#8B572A;
-}
-
-#navi hover{
+a:hover {
 	color: white;
 	border-color: white;
+
+
 
