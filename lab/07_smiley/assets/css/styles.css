@@ -1,0 +1,125 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	position: fixed;
+	left: 20px;
+	bottom: 10px;
+}
+
+body {
+	margin: 4px;
+	margin-right: 0;
+}
+
+.label {
+	display: inline-block;
+}
+.label.active {
+	background-color: lightpink;
+
+}
+
+.label.inactive {
+	background-color: lightblue;
+}
+
+.prompt {
+	animation-name: pulse;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+.prompt .monitor {
+	display: inline-block;
+	background-color: white;
+	padding: 10px;
+	border: 1px solid black;
+
+}
+
+
+.block {
+	display: inline-block;
+	border: 1px solid black;
+	width: calc( 10% - 4px );
+	padding-top: calc( 10% - 4px);
+}
+
+.black {
+	background-color: black;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+/*animation*/
+
+@keyframes pulse {
+	0% {opacity: 0}
+	50% {opacity: 1}
+	100% {opacity: 0}
+}
+
+
+
+@media (max-width: 480px) {
+	.block {
+		width: calc(20% - 4px);
+		padding-top: calc(20% - 4px);
+	}
+	.block:hover {
+		background-color: lightpink;
+	}
+
+	.label.active {
+	background-color: lightpink;
+
+	}
+	.prompt {
+		display: none;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 992px) {
+	.block {
+		width: calc(10% - 4px);
+		padding-top: calc(10% - 4px);
+	}
+
+	.block:hover {
+		background-color: lightblue;
+	}
+
+	.label.iactive {
+	background-color: lightblue;
+
+	}
+	.prompt {
+		display: none;
+	}
+}
+
+@media (min-width: 992px) {
+	.block {
+		width: calc(5% - 4px);
+		padding-top: calc(5% - 4px);
+	}
+
+	.block:hover {
+		background-color: red;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
