@@ -13,9 +13,7 @@ body {
 	margin-right: 0;
 }
 
-.label {
-	display: inline-block;
-}
+
 .label.active {
 	background-color: lightpink;
 
@@ -31,7 +29,7 @@ body {
 	animation-iteration-count: infinite;
 }
 
-.prompt .monitor {
+.prompt .label {
 	display: inline-block;
 	background-color: white;
 	padding: 10px;
@@ -78,9 +76,7 @@ body {
 	background-color: lightpink;
 
 	}
-	.prompt {
-		display: none;
-	}
+
 }
 
 @media (min-width: 481px) and (max-width: 992px) {
