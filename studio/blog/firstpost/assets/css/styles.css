@@ -1,0 +1,38 @@
+html {
+	background-color: #838E81;
+}
+
+body {
+	font-family: didot, serif;
+	display: inline-block;
+	color: #EAE0CC;
+	font-size: 20px;
+	margin: 10vw;
+}
+
+img {
+	width: 60%;
+	display: inline-block;
+	margin:50px;
+	margin-left: 40vw;
+}
+
+/*.one:hover {
+	background :transparent url('assets/media/dufontg2.jpg');
+}
+*/
+.dufont {
+	position: relative;
+    float: left;
+}
+        
+.dufont .two {
+    position: absolute;
+ 	left: 0;
+	top: 0;
+ 	display: none;
+}
+
+.dufont:hover .two {
+    display: block;
+}

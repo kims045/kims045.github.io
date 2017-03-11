@@ -14,7 +14,8 @@ body {
 }
 
 img {
-	width: 60%;
+	width: 50%;
+	height: 50%;
 
 }
 
@@ -62,19 +63,21 @@ img {
 
 
 
+
+
 @media (min-height:0px) and (max-height: 440px) and (min-width: 100px)  {
 	html {
-		background-color: ;
+		background-color: black;
 	}
-	.faucet {
+	.dark {
 		position: absolute;
 	}
 
-	.faucet:hover {
+	.dark:hover {
 		background-color: ;
 	}
 
-	.water {
+	.light {
 		display: none;
 	}
 
@@ -82,49 +85,24 @@ img {
 
 
 
- @media (min-height: 441px) {
-	.water {
+ @media (min-height: 441px)  {
+	html {
+		background-color: white;
+	}
+
+	.light {
 		padding-top: -200px;
 		
 		
 	}
 
-	.water:hover {
-		background-color: ;
+	.light:hover {
+		background-color:;
 	}
 
-	.faucet {
+	.dark {
 		display: none;
 	}
 
 }
-
-@media (min-height:0px) and (max-height: 440px) and (min-width: 100px)  {
-	html {
-		background-color: ;
-	}
-	.faucet {
-		position: absolute;
-	}
-
-	.faucet:hover {
-		background-color: ;
-	}
-
-	.water {
-		display: none;
-	}
-
-}
-/*
-
-
-
-
-
-
-
-
-
-
 
