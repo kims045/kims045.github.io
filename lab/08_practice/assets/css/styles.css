@@ -36,6 +36,9 @@ img {
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 }
+.off {
+	color: white;
+}
 
 .prompt .monitor {
 	display: inline-block;
@@ -44,7 +47,10 @@ img {
 	border: 1px solid black;
 
 }
-
+.monitor {
+	color: white;
+	background-color:black;
+}
 
 .yay {
 	display: inline block;
@@ -80,8 +86,12 @@ img {
 	.light {
 		display: none;
 	}
+	.on {
+		display: none;
+	}
 
 }
+
 
 
 

@@ -36,6 +36,9 @@ img {
 	animation-iteration-count: infinite;
 }
 
+.on {
+	color: red;
+}
 .prompt .monitor {
 	display: inline-block;
 	background-color: white;
@@ -77,6 +80,9 @@ img {
 	.water {
 		display: none;
 	}
+	.on {
+		display:none;
+	}
 
 }
 
@@ -94,6 +100,10 @@ img {
 	}
 
 	.faucet {
+		display: none;
+	}
+
+	.off {
 		display: none;
 	}
 
