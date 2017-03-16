@@ -39,7 +39,9 @@ img {
 .off {
 	color: white;
 }
-
+.on {
+	color: red;
+}
 .prompt .monitor {
 	display: inline-block;
 	background-color: white;
