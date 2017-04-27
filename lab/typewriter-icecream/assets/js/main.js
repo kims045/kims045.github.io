@@ -153,9 +153,9 @@ var letters = {
     },
     KeyZ: {
       url: "assets/css/yum.png",
-      left: "17%",
+      left: "7%",
       top: "8%",
-      width: "100%"
+      width: "70%"
     }
 
 };
