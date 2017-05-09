@@ -1,7 +1,7 @@
-* {
+* {	background-color: #FFF7D6;
     margin: auto;
     padding: auto;
-    background-color: #D03E28;
+   /* background-color: #D03E28;*/
 }
 
 h1 {
@@ -9,16 +9,62 @@ h1 {
 	/*font-family: 'Open Sans Condensed', sans-serif;
 	font-family: 'Rajdhani', sans-serif;
 	font-family: 'Monda', sans-serif;*/
-	color: white;
+	color: #D03E28;
 	font-size: 50px;
 }
 
+.textbox {
+	width: 40%;
+	height: 300vh;
+	margin-left: 30vw;
+	background-color: #FFC9C0;
+	position: center;
+	z-index: -10;
+	position: absolute;
+
+}
 body {
 	font-family: 'Monda', sans-serif;
-	color: white
+	color: brown;
 }
 
 .textone {
-	float: left;
-	width: 40vw;
+	width: 30vw;
+	z-index: 100;
+	position: absolute;
+	margin-left: 10vw;
+	font-size: 1.5vw;
+}
+.texttwo {
+	width: 30vw;
+	z-index: 100;
+	position: absolute;
+	margin-left: 60vw;
+	margin-top: 30vh;
+	font-size: 1.5vw;
+}
+.textthree {
+	width: 30vw;
+	z-index: 100;
+	position: absolute;
+	margin-left: 10vw;	
+	margin-top: 105vh;
+	font-size: 1.5vw;
+}
+.textfour {
+	width: 30vw;
+	z-index: 100;
+	position: absolute;
+	margin-left: 60vw;
+	margin-top: 175vh;
+	font-size: 1.5vw;
+}
+
+.textfive {
+	width: 30vw;
+	z-index: 100;
+	position: absolute;
+	margin-left: 10vw;
+	margin-top: 220vh;
+	font-size: 1.5vw;
 }

@@ -53,7 +53,7 @@ html, body, .Container {
     }
 
 .Header {
-    margin-bottom: 10px;
+    height: 5vh;
     background-color: #D03E28;
 }
 
@@ -84,14 +84,26 @@ html, body, .Container {
     width: 50%;
 }
 
+.leftbox {
+    width: 25%;
+    background-color: #D03E28;
+}
+
 .Right { 
     background-color: white;
     float: right;
     margin-left: 10px;
     width: 40%;
-
 }
 
+/*.redline {
+    height: 100%;
+    width: 10vw;
+    border-style: solid;
+    border-color: #D03E28;
+    z-index: -1;
+}
+*/
 img {
     width: 20vw;
     padding:10px;
@@ -104,50 +116,211 @@ img:hover {
     filter: alpha(opacity=50);
 }
 
-.one {
-    margin-left: 5vw;
-    margin-top: 10vh;
+
+.textone {
+    display: none;
+    -webkit-transform: rotate(-270deg);
+    margin-top: 50vh;
+    margin-right: 50vh;
+    width: 60vw;
+    font-family: 'Atomic Age', cursive;
+    font-size: 100px;
+    position: absolute;
+    display: block;
+    animation: movingTopToBottom 3s;
+-webkit-animation: movingTopToBottom ease 3s;
+    position: absolute;
+}
+.texttwo {
+    display: none;
+    -webkit-transform: rotate(-270deg);
+    margin-top: 50vh;
+    margin-right: 50vh;
+    width: 60vw;
+    font-family: 'Atomic Age', cursive;
+    font-size: 100px;
+    position: absolute;
+    display: block;
+    animation: movingTopToBottom 3s;
+-webkit-animation: movingTopToBottom ease 3s;
+    position: absolute;
+}
+.textthree {
+    display: none;
+    -webkit-transform: rotate(-270deg);
+    margin-top: 50vh;
+    margin-right: 50vh;
+    width: 60vw;
+    font-family: 'Atomic Age', cursive;
+    font-size: 100px;
+    position: absolute;
+    display: block;
+   animation: movingTopToBottom 3s;
+-webkit-animation: movingTopToBottom ease 3s;
+    position: absolute;
+}
+.textfour {
+    display: none;
+    -webkit-transform: rotate(-270deg);
+    margin-top: 50vh;
+    margin-right: 50vh;
+    width: 60vw;
+    font-family: 'Atomic Age', cursive;
+    font-size: 100px;
+    position: absolute;
+    display: block;
+   animation: movingTopToBottom 3s;
+-webkit-animation: movingTopToBottom ease 3s;
+    position: absolute;
+}
+.textfive {
+    display: none;
+    -webkit-transform: rotate(-270deg);
+    margin-top: 50vh;
+    margin-right: 50vh;
+    width: 60vw;
+    font-family: 'Atomic Age', cursive;
+    font-size: 100px;
+    position: absolute;
+    display: block;
+   animation: movingTopToBottom 3s;
+-webkit-animation: movingTopToBottom ease 3s;
+    position: absolute;
+}
+.textsix {
+    display: none;
+    -webkit-transform: rotate(-270deg);
+    margin-top: 50vh;
+    margin-right: 50vh;
+    width: 60vw;
+    font-family: 'Atomic Age', cursive;
+    font-size: 100px;
+    position: absolute;
+    display: block;
+   animation: movingTopToBottom 3s;
+-webkit-animation: movingTopToBottom ease 3s;
+    position: absolute;
+}
+.textseven {
+    display: none;
+    -webkit-transform: rotate(-270deg);
+    margin-top: 50vh;
+    margin-right: 50vh;
+    width: 60vw;
+    font-family: 'Atomic Age', cursive;
+    font-size: 100px;
+    position: absolute;
+    display: block;
+   animation: movingTopToBottom 3s;
+-webkit-animation: movingTopToBottom ease 3s;
+    position: absolute;
+}
+.texteight {
+    display: none;
+    -webkit-transform: rotate(-270deg);
+    margin-top: 50vh;
+    margin-right: 50vh;
+    width: 60vw;
+    font-family: 'Atomic Age', cursive;
+    font-size: 100px;
+    position: absolute;
+    display: block;
+   animation: movingTopToBottom 3s;
+-webkit-animation: movingTopToBottom ease 3s;
+    position: absolute;
 }
 
-.text {
-    display: none;
+
+
+
+.textone { 
+    animation-name: anim-1;
 }
+.texttwo { 
+    animation-name: anim-1;
+}
+.textthree { 
+    animation-name: anim-1;
+}
+.textfour { 
+    animation-name: anim-1;
+}
+.textfive { 
+    animation-name: anim-1;
+}
+.textsix { 
+    animation-name: anim-1;
+}
+.textseven { 
+    animation-name: anim-1;
+}
+.texteight { 
+    animation-name: anim-1;
+}
+
+
 /*img.one:hover + .text {
     display: block;
 }*/
-
-.two {
-    margin-left: 15vw;
+.one {
+    margin-left: 5vw;
     margin-top: 10vh;
-    width: 25vw;
+    width: 18vw;
+}
+.two {
+    margin-left: 18vw;
+    margin-top: 10vh;
+    width: 21vw;
 }
 .three {
-    margin-left: 5vw;
+    margin-left: 8vw;
     margin-top: 10vh;
 }
 .four {
-    margin-left: 5vw;
+    margin-left: 30vw;
     margin-top: 10vh;
+    width: 17vw;
 }
 .five {
-    margin-left: 5vw;
+    margin-left: 4vw;
     margin-top: 10vh;
+    width: 20vw;
 }
 .six {
-    margin-left: 5vw;
+    margin-left: 18vw;
     margin-top: 10vh;
+    width: 25vw;
 }
 .seven {
-    margin-left: 5vw;
+    margin-left: 9vw;
     margin-top: 10vh;
+    width: 17vw;
 }
 .eight {
-    margin-left: 5vw;
+    margin-left: 15vw;
     margin-top: 10vh;
 }
 
 
+/*@keyframes anim-1 {
+  0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}*/
 
+@keyframes anim-1 {
+  0% {
+    top: 50px;
+  }
+  100% {
+    top: 900px;
+  }
+}
+/*#divTAReviews {
+  animation: movingTopToBottom 3s ease infinite;
+  -webkit-animation: movingTopToBottom ease 3s infinite;
+  position: absolute;
+}*/
 
 
 
