@@ -1,0 +1,24 @@
+* {
+    margin: auto;
+    padding: auto;
+    background-color: #D03E28;
+}
+
+h1 {
+	font-family: 'Atomic Age', cursive;
+	/*font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
+	font-family: 'Monda', sans-serif;*/
+	color: white;
+	font-size: 50px;
+}
+
+body {
+	font-family: 'Monda', sans-serif;
+	color: white
+}
+
+.textone {
+	float: left;
+	width: 40vw;
+}
