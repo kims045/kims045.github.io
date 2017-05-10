@@ -1,0 +1,90 @@
+* {	background-color: #FFF7D6;
+    margin: auto;
+    padding: auto;
+   /* background-color: #D03E28;*/
+}
+
+header {
+    height: 20vh;
+  	font-family: 'Atomic Age', cursive;
+	/*font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
+	font-family: 'Monda', sans-serif;*/
+	color: #D03E28;
+	font-size: 4vw;
+	position: fixed; 
+	z-index: 1000;
+	margin-top: -53px;
+	margin-left: 10vw;
+	background-color: transparent;
+}
+
+footer {
+	position: fixed;
+	display: block;
+	z-index: 1000;
+	bottom: 0;
+}
+
+.textbox {
+	width: 40%;
+	height: 300vh;
+	margin-left: 30vw;
+	background-color: #FFC9C0;
+	position: fixed;
+	z-index: 10;
+	position: absolute;
+
+}
+body {
+	font-family: 'Monda', sans-serif;
+	color: brown;
+}
+
+.textone {
+	width: 30vw;
+	z-index: 100;
+	position: absolute;
+	margin-left: 10vw;
+	margin-top: 15vh;
+	font-size: 1.5vw;
+	background-color: transparent;
+}
+.texttwo {
+	width: 30vw;
+	z-index: 100;
+	position: absolute;
+	margin-left: 60vw;
+	margin-top: 30vh;
+	font-size: 1.5vw;
+	background-color: transparent;
+}
+.textthree {
+	width: 30vw;
+	z-index: 100;
+	position: absolute;
+	margin-left: 10vw;	
+	margin-top: 105vh;
+	font-size: 1.5vw;
+	background-color: transparent;
+}
+.textfour {
+	width: 30vw;
+	z-index: 100;
+	position: absolute;
+	margin-left: 60vw;
+	margin-top: 175vh;
+	font-size: 1.5vw;
+	background-color: transparent;
+}
+/*
+.textfive {
+	width: 30vw;
+	z-index: 100;
+	position: absolute;
+	margin-left: 10vw;
+	margin-top: 220vh;
+	font-size: 1.5vw;
+	background-color: transparent;
+}
+*/

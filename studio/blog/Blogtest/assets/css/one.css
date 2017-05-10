@@ -20,19 +20,43 @@ header {
 }
 
 footer {
+  	width: 1000px;
 	position: fixed;
-	display: block;
-	z-index: 1000;
+	z-index: 800;
 	bottom: 0;
+	background-color: #D03E28;
+}
+
+a {
+	margin-left: 15vw;
+    font-family: 'Monda', sans-serif;
+    color: white;
+    background-color: #D03E28;
+
+}
+a:link,  a:visited {
+    text-decoration: none;
+}
+a:hover {
+    
+    transition: background 1s;   
+}
+
+a:hover {
+    color: white;
+    border-color: white;
+}
+
+.red {
+	z-index: 900;
 }
 
 .textbox {
 	width: 40%;
 	height: 300vh;
-	margin-left: 30vw;
-	background-color: #FFC9C0;
+	margin-left: 60vw;
+	background-color: #D03E28;
 	position: fixed;
-	z-index: 10;
 	position: absolute;
 
 }
@@ -45,16 +69,17 @@ body {
 	width: 30vw;
 	z-index: 100;
 	position: absolute;
-	margin-left: 10vw;
+	margin-left: 15vw;
 	margin-top: 15vh;
 	font-size: 1.5vw;
 	background-color: transparent;
 }
 .texttwo {
+	color:#FFF7D6;
 	width: 30vw;
-	z-index: 100;
+	z-index: 1000;
 	position: absolute;
-	margin-left: 60vw;
+	margin-left: 65vw;
 	margin-top: 30vh;
 	font-size: 1.5vw;
 	background-color: transparent;
@@ -63,16 +88,16 @@ body {
 	width: 30vw;
 	z-index: 100;
 	position: absolute;
-	margin-left: 10vw;	
+	margin-left: 15vw;	
 	margin-top: 105vh;
 	font-size: 1.5vw;
 	background-color: transparent;
 }
 .textfour {
 	width: 30vw;
-	z-index: 100;
+	z-index: 1000;
 	position: absolute;
-	margin-left: 60vw;
+	margin-left: 65vw;
 	margin-top: 175vh;
 	font-size: 1.5vw;
 	background-color: transparent;
@@ -82,8 +107,9 @@ body {
 	width: 30vw;
 	z-index: 100;
 	position: absolute;
-	margin-left: 10vw;
+	margin-left: 15vw;
 	margin-top: 220vh;
 	font-size: 1.5vw;
 	background-color: transparent;
 }
+

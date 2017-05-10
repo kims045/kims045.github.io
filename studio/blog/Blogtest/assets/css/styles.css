@@ -38,3 +38,19 @@ img {
 	margin-left: 60vw;
 	margin-top: 100px;
 }
+a {
+    font-family: 'Monda', sans-serif;
+    color: #FFC9C0;
+}
+a:link,  a:visited {
+    text-decoration: none;
+}
+a:hover {
+    
+    transition: background 1s;   
+}
+
+a:hover {
+    color: white;
+    border-color: white;
+}

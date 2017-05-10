@@ -55,6 +55,7 @@ html, body, .Container {
 .Header {
     height: 5vh;
     background-color: #D03E28;
+    
 }
 
 .Content {
@@ -344,25 +345,18 @@ div::-webkit-scrollbar-thumb {
 a {
     font-family: 'Monda', sans-serif;
     color: white;
-
-
 }
 a:link,  a:visited {
     text-decoration: none;
 }
 a:hover {
     
-    transition: background 1s;
-    
+    transition: background 1s;   
 }
 
 a:hover {
     color: white;
     border-color: white;
-
-
-
-
 }
     /*font-family: 'Atomic Age', cursive;
     font-family: 'Open Sans Condensed', sans-serif;
