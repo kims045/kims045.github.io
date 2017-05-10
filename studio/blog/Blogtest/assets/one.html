@@ -17,7 +17,8 @@
 			<center>
 				<div class="textone" >
 					<br><br>
-					‘An older type of car, usually one that is no longer produced and that people like to own because it looks very stylish or has special features.’ 
+					‘An older type of car, usually one that is no longer produced and that people like to own because it looks very stylish or has special features.’
+					<img class="imageone" src="../assets/media/vintage/1-7.jpg"> 
 				</div>
 			
 
@@ -42,8 +43,20 @@
 					<br><br>
 					To sum up, classic car has various definitions in different groups and around the world. However, there is one common theme, that every classic car has it’s own historical or personal story and it is old and aged. They are mostly unique, fine, and unusual cars that are 25 years to fifty years old.
 					<br><br><br><br>
+					<!-- https://www.nytimes.com/2016/12/22/business/automakers-prepare-america-fewer-cars.html?_r=0
+					<br>
+						https://petrolicious.com/articles/why-do-people-still-love-classic-cars
+					 -->
 				</div>
 			</center>
+				<div class="cite" >
+					
+						https://www.nytimes.com/2016/12/22/business/automakers-prepare-america-fewer-cars.html?_r=0
+					<br>
+						https://petrolicious.com/articles/why-do-people-still-love-classic-cars
+					
+				</div>
+			
 		<footer>
 			<a href="../assets/two.html"> next </a> 
 			<a href="../main.html"> back to main page </a>
@@ -51,5 +64,29 @@
 
 	</p>
 
+
+        <script type="text/javascript">
+			var eight = document.getElementsByClassName('textone')[0];
+			var texteight = document.getElementsByClassName('imageone')[0];
+
+			eight.onmouseover = function(){
+				texteight.style.display = 'block';
+			};
+			eight.onmouseout = function(){
+				texteight.style.display = 'none';
+			};
+
+		</script>
+		<!-- $(".Your_class").mouseenter(function(){
+        var image_name=$(this).data('image');
+        var imageTag='<div style="position:absolute;">'+'<img src="'+image_name+'" alt="image" height="100" />'+'</div>';
+        $(this).parent('div').append(imageTag);
+    });
+    $(".Your_class").mouseleave(function(){
+        $(this).parent('div').children('div').remove();
+    });
+ -->
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>

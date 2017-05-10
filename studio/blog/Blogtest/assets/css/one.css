@@ -16,7 +16,7 @@ header {
 	z-index: 1000;
 	margin-top: -53px;
 	margin-left: 10vw;
-	background-color: transparent;
+	background-color: #FFF7D6;
 }
 
 footer {
@@ -94,6 +94,7 @@ body {
 	background-color: transparent;
 }
 .textfour {
+	color:#FFF7D6;
 	width: 30vw;
 	z-index: 1000;
 	position: absolute;
@@ -111,5 +112,25 @@ body {
 	margin-top: 220vh;
 	font-size: 1.5vw;
 	background-color: transparent;
+}
+
+.imageone {
+	display: none;
+	position: absolute;
+	width: 20vw;
+	height: 35vh;
+	margin-left: 5vw;
+	margin-top: 5vh;
+}
+
+.cite {
+	width: 50vw;
+	z-index: 100;
+	position: absolute;
+	margin-left: 1vw;
+	margin-top: 280vh;
+	font-size: .5em;
+	background-color: transparent;
+
 }
 
