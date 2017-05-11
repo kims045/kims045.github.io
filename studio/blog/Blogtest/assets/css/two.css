@@ -6,6 +6,7 @@
 }
 
 header {
+    
     height: 20vh;
     width: 100%;
   	font-family: 'Atomic Age', cursive;
@@ -22,11 +23,13 @@ header {
 }
 
 footer {
-  	width: 100%;
+  	width: 500vw;
+  	height: 5vh;
 	position: fixed;
 	z-index: 800;
 	bottom: 0;
 	background-color: #D03E28;
+	margin-left: -10vw;
 }
 
 a {
@@ -34,6 +37,7 @@ a {
     font-family: 'Monda', sans-serif;
     color: white;
     background-color: #D03E28;
+    font-size: 1.3vw;
 
 }
 a:link,  a:visited {
@@ -53,45 +57,30 @@ a:hover {
 	width: 15vw;
 }
 
+}
+#flip {
+	margin-top: 24vh;
+}
 #panel, #flip {
-      padding: 5px;
+      padding: 10px;
       text-align: center;
       background-color: #D03E28;
       border: solid 1px #D03E28;
-      width: 20vw;
-      
-      margin-top:20vh;
-      z-index: 1000;
-      position: absolute;
+      width: 25vw;
+      margin-left: 3vw;
+      font-family: 'Monda', sans-serif;
 
   }
 
 #panel {
-      padding: 5px;
+      padding: 10px;
       padding-top: 2vh;
       display: none;
-      top:69px;
+
   }
 
-#flip {
-	top: 10vh;
-}
 
-/*.textbox {
-	width: 40%;
-	height: 100%;
-	margin-left: 30vw;
-	background-color: #D03E28;
-	position: fixed;
-	z-index: 10;
-	position: absolute;
 
-}*/
-/*body {
-	font-family: 'Monda', sans-serif;
-	color: brown;
-	height: 180vh;
-}*/
 
 .textone {
 	width: 67vw;

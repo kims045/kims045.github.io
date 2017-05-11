@@ -20,11 +20,13 @@ header {
 }
 
 footer {
-  	width: 500vw;
+ 	width: 500vw;
+ 	height: 5vh;
 	position: fixed;
-	z-index: 950;
+	z-index: 920;
 	bottom: 0;
 	background-color: #D03E28;
+	margin-left: -10vw;
 }
 
 a {
@@ -32,6 +34,7 @@ a {
     font-family: 'Monda', sans-serif;
     color: white;
     background-color: #D03E28;
+    font-size: 1.3vw;
 
 }
 a:link,  a:visited {

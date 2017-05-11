@@ -331,7 +331,7 @@ a:hover {
 @media only screen and (max-width: 500px) {
     .Header {
     height: 5vh;
-    background-color: black;
+    background-color:  #D03E28;;
     }
 
     .Right {
