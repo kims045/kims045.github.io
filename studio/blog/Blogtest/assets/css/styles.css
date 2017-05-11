@@ -18,6 +18,19 @@ img {
 	margin: 20px;
 }
 
+
+.title {
+	padding-top: 20vh;
+	position: relative;
+	z-index: 100;
+}
+
+.text {
+	width: 35vw;
+	margin-left: 45vw;
+	margin-top: 100px;
+}
+
 .box {
 	background-color: #D03E28;
 	width: 30vw;
@@ -27,17 +40,7 @@ img {
 	z-index:-2;
 }
 
-.title {
-	padding-top: 20vh;
-	position: relative;
-	z-index: 100;
-}
 
-.text {
-	width: 200px;
-	margin-left: 60vw;
-	margin-top: 100px;
-}
 a {
     font-family: 'Monda', sans-serif;
     color: #FFC9C0;
@@ -54,3 +57,72 @@ a:hover {
     color: white;
     border-color: white;
 }
+
+
+.imagemove {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 65vw; 
+  }
+
+  to {
+	margin-left: 20px;
+    width: 65vw; 
+  }
+}
+
+.slide {
+	animation-duration: 3s;
+  	animation-name: titlefromright;
+}
+
+@keyframes titlefromright {
+  from {
+	width: 35vw;
+	margin-top: 100px;
+	margin-left: 90vw;
+
+  }
+
+  to {
+	width: 35vw;
+	margin-top: 100px;
+	margin-left: 45vw;
+  }
+}
+
+.move {
+	animation-duration: 3s;
+  	animation-name: comeup;
+}
+
+@keyframes comeup {
+  from {
+	width: 30vw;
+	height: 10vh;
+	margin-left: 60vw;
+
+  }
+
+  to {
+	width: 30vw;
+	height: 100vh;
+	margin-left: 60vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

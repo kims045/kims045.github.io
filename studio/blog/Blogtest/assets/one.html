@@ -6,6 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Atomic+Age" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Monda|Open+Sans+Condensed:300|Rajdhani" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../assets/css/footer.css">
+	<link rel="stylesheet" type="text/css" href="../assets/js/jquery-3.2.1.min.js">
 </head>
 <body>
 
@@ -13,35 +14,48 @@
 	<p>
 
 	<div class="textbox red"></div><br><br>
-		<header><br> 1. What is classic car.<br><br></header>
+		<header><h1>1. What is classic car.</h1></header>
 			<center>
 				<div class="textone" >
+					<p>
 					<br><br>
 					‘An older type of car, usually one that is no longer produced and that people like to own because it looks very stylish or has special features.’
-					<img class="imageone" src="../assets/media/vintage/1-7.jpg"> 
+					</p>
+					<img class="imageone" src="../assets/media/vintage/1-1.jpg"> 
 				</div>
 			
 
 				<div class="texttwo">
+					
 					<br><br>
 					This is a definition of classic car in Cambridge Dictionary. However, in my opinion, it is difficult to define ‘Classic car’ in a very accurate way or in one sentence because it does not have consistent definition. According to “The Classic Car Club of America”, classic cars only includes select cars built from 1925 to 1948. 
 					However, range of cars made from the mid 20’s to 1972 is called “Classic Car’” among “Classic Car Authorities”. 
+				
+					<img class="imagetwo" src="../assets/media/vintage/1-2.jpg"> 
 				</div>
 
 				<div class="textthree"> 
+					<p>
 					They also divide into several sections when defining cars; Classic car, antique car, and modern collector car. “Antique Car,” is defined as the cars made before mid 20’s while “Modern collector car” is made from the 1983.  
 					Compare to “The Classic Car Club of America” and “Classic Car Authorities”, Heacock does not give a specific sections or distinctions in defining classic car. They care more about how the car is maintained and used. To them, as long as the car is kept and driven as a collector car, that’s what they are interested, and describe as classic car.
+					</p>
+					<img class="imagethree" src="../assets/media/vintage/1-7.jpg"> 
 				</div> 
 
 				<div class="textfour">
-					<br><br>
+					
 					Classic cars are the real-life objects that defined that heritage and established the reputation of the brand in the first place.
 					Classic car is not about efficiency and speed, but about the experience, style, exclusivity and craftsmanship, all of which are universal and timeless. 
+			
+					<img class="imagefour" src="../assets/media/vintage/redcar.jpg"> 
 				</div>
 
 				<div class="textfive">
+					<p>
 					<br><br>
 					To sum up, classic car has various definitions in different groups and around the world. However, there is one common theme, that every classic car has it’s own historical or personal story and it is old and aged. They are mostly unique, fine, and unusual cars that are 25 years to fifty years old.
+					</p>
+					<img class="imagefive" src="../assets/media/vintage/67-2.jpg"> 
 					<br><br><br><br>
 					<!-- https://www.nytimes.com/2016/12/22/business/automakers-prepare-america-fewer-cars.html?_r=0
 					<br>
@@ -70,13 +84,62 @@
 			var texteight = document.getElementsByClassName('imageone')[0];
 
 			eight.onmouseover = function(){
-				texteight.style.display = 'block';
+				texteight.style.opacity = '1';
 			};
 			eight.onmouseout = function(){
-				texteight.style.display = 'none';
+				texteight.style.opacity = '0';
 			};
-
 		</script>
+		
+		<script type="text/javascript">
+			var migos = document.getElementsByClassName('texttwo')[0];
+			var thatway = document.getElementsByClassName('imagetwo')[0];
+
+			migos.onmouseover = function(){
+				thatway.style.opacity = '1';
+			};
+			migos.onmouseout = function(){
+				thatway.style.opacity = '0';
+			};
+		</script>
+
+		
+		<script type="text/javascript">
+			var gucci = document.getElementsByClassName('textthree')[0];
+			var mane = document.getElementsByClassName('imagethree')[0];
+
+			gucci.onmouseover = function(){
+				mane.style.opacity = '1';
+			};
+			gucci.onmouseout = function(){
+				mane.style.opacity = '0';
+			};
+		</script>
+		 
+		<script type="text/javascript">
+			var kendrick = document.getElementsByClassName('textfour')[0];
+			var lamar = document.getElementsByClassName('imagefour')[0];
+
+			kendrick.onmouseover = function(){
+				lamar.style.opacity = '1';
+			};
+			kendrick.onmouseout = function(){
+				lamar.style.opacity = '0';
+			};
+		</script>
+		
+		<script type="text/javascript">
+			var chloe = document.getElementsByClassName('textfive')[0];
+			var kim = document.getElementsByClassName('imagefive')[0];
+
+			chloe.onmouseover = function(){
+				kim.style.opacity = '1';
+			};
+			chloe.onmouseout = function(){
+				kim.style.opacity = '0';
+			};
+		</script>
+
 		<!-- $(".Your_class").mouseenter(function(){
         var image_name=$(this).data('image');
         var imageTag='<div style="position:absolute;">'+'<img src="'+image_name+'" alt="image" height="100" />'+'</div>';
@@ -86,7 +149,8 @@
         $(this).parent('div').children('div').remove();
     });
  -->
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</div>
+</body>
 </body>
 </html>

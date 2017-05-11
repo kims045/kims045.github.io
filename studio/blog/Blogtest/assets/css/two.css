@@ -1,4 +1,5 @@
-* {	background-color: #FFF7D6;
+* {	
+	background-color: #FFF7D6;
     margin: auto;
     padding: auto;
    /* background-color: #D03E28;*/
@@ -6,51 +7,105 @@
 
 header {
     height: 20vh;
+    width: 100%;
   	font-family: 'Atomic Age', cursive;
 	/*font-family: 'Open Sans Condensed', sans-serif;
 	font-family: 'Rajdhani', sans-serif;
 	font-family: 'Monda', sans-serif;*/
 	color: #D03E28;
-	font-size: 4vw;
+	font-size: 2.5vw;
 	position: fixed; 
 	z-index: 1000;
-	margin-top: -53px;
-	margin-left: 10vw;
-	background-color: transparent;
+	top:0;
+	left:0;
+	background-color: #FFF7D6;
 }
 
 footer {
+  	width: 100%;
 	position: fixed;
-	display: block;
-	z-index: 1000;
+	z-index: 800;
 	bottom: 0;
+	background-color: #D03E28;
 }
 
-.textbox {
+a {
+	margin-left: 15vw;
+    font-family: 'Monda', sans-serif;
+    color: white;
+    background-color: #D03E28;
+
+}
+a:link,  a:visited {
+    text-decoration: none;
+}
+a:hover {
+    
+    transition: background 1s;   
+}
+
+a:hover {
+    color: white;
+    border-color: white;
+}
+
+.a {
+	width: 15vw;
+}
+
+#panel, #flip {
+      padding: 5px;
+      text-align: center;
+      background-color: #D03E28;
+      border: solid 1px #D03E28;
+      width: 20vw;
+      
+      margin-top:20vh;
+      z-index: 1000;
+      position: absolute;
+
+  }
+
+#panel {
+      padding: 5px;
+      padding-top: 2vh;
+      display: none;
+      top:69px;
+  }
+
+#flip {
+	top: 10vh;
+}
+
+/*.textbox {
 	width: 40%;
-	height: 300vh;
+	height: 100%;
 	margin-left: 30vw;
-	background-color: #FFC9C0;
+	background-color: #D03E28;
 	position: fixed;
 	z-index: 10;
 	position: absolute;
 
-}
-body {
+}*/
+/*body {
 	font-family: 'Monda', sans-serif;
 	color: brown;
-}
+	height: 180vh;
+}*/
 
 .textone {
-	width: 30vw;
+	width: 67vw;
 	z-index: 100;
 	position: absolute;
 	margin-left: 10vw;
 	margin-top: 15vh;
-	font-size: 1.5vw;
+	font-size: 1.3vw;
 	background-color: transparent;
+	font-family: 'Monda', sans-serif;
+	color: #D03E28;
+	height: 180vh;
 }
-.texttwo {
+/*.texttwo {
 	width: 30vw;
 	z-index: 100;
 	position: absolute;
@@ -76,5 +131,47 @@ body {
 	margin-top: 175vh;
 	font-size: 1.5vw;
 	background-color: transparent;
+}
+*/
+/*
+.a {
+	animation-duration: 3s;
+  	animation-name: comeup;
+}
+
+@keyframes comeup {
+  from {
+	width: 15vw;
+	margin-left: 60vw;
+
+  }
+
+  to {
+	width: 30vw;
+	margin-left: 20vw;
+  }
+}*/
+
+.textone {
+  animation-duration: 3s;
+  animation-name: lastmove;
+}
+
+@keyframes lastmove {
+  from {
+   	width: 67vw;
+	margin-left: -70vw;
+	margin-top: 15vh;
+	height: 180vh;
+
+  }
+
+  to {
+	width: 67vw;
+	margin-left: 10vw;
+	margin-top: 15vh;
+	height: 180vh;
+
+  }
 }
 

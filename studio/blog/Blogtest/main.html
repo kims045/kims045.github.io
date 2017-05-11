@@ -4,6 +4,7 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<script src="assets/js/main.js"></script>
+
 	<link href="https://fonts.googleapis.com/css?family=Atomic+Age" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Monda|Open+Sans+Condensed:300|Rajdhani" rel="stylesheet">
 </head>
@@ -35,12 +36,13 @@
            		<a href="../Blogtest/index.html">About</a>
            		<a href="../Blogtest/index.html">Contact</a>
 
+
         </div>
         <div class="Content">
             <div class="Wrapper">
                 <div class="Right">
                 	<!-- <div class="redline">
-                		
+        
                 	</div> -->
                 	<div class="all">
                     	<div class="textone"> What is Classic car
@@ -61,25 +63,26 @@
                     	</div>
                 	</div>
                 </div>
+
                 <div class="Left">
                 	<div class="leftbox">
-                    <div class="titles">
-				<a href="assets/one.html"><img class="one" src="assets/media/vintage/1.jpg"></a>
-			
-			<br><a href="assets/two.html"><img class="two" src="assets/media/vintage/2.jpg"></a>
-			
-			<br><a href="assets/three.html"><img class="three" src="assets/media/vintage/3.jpg"></a>
-			
-			<br><a href="assets/four.html"><img class="four" src="assets/media/vintage/4.jpg"></a>
-			
-			<br><a href="assets/five.html"><img class="five" src="assets/media/vintage/5.jpg"></a>
-			
-			<br><a href="assets/six.html"><img class="six" src="assets/media/vintage/6.jpg"></a>
-			
-			<br><a href="assets/seven.html"><img class="seven" src="assets/media/vintage/7.jpg"></a>
-			
-			<br><a href="assets/eight.html"><img class="eight" src="assets/media/vintage/8.jpg"></a>
-					</div>
+	                    <div class="titles">
+							<a href="assets/one.html"><img class="one main-img" src="assets/media/vintage/1.jpg"></a>
+						
+							<br><a id="draggable" href="assets/two.html"><img class="two main-img" src="assets/media/vintage/2.jpg"></a>
+							
+							<br><a href="assets/three.html"><img class="three main-img" src="assets/media/vintage/3.jpg"></a>
+							
+							<br><a href="assets/four.html"><img class="four main-img" src="assets/media/vintage/4.jpg"></a>
+							
+							<br><a href="assets/five.html"><img class="five main-img" src="assets/media/vintage/5.jpg"></a>
+							
+							<br><a href="assets/six.html"><img class="six main-img" src="assets/media/vintage/6.jpg"></a>
+							
+							<br><a href="assets/seven.html"><img class="seven main-img" src="assets/media/vintage/7.jpg"></a>
+							
+							<br><a href="assets/eight.html"><img class="eight main-img" src="assets/media/vintage/8.jpg"></a>
+						</div>
 					</div>
 				</div>
             </div>
@@ -169,9 +172,19 @@ var eight = document.getElementsByClassName('eight')[0];
 				texteight.style.display = 'none';
 			};
 
-
         </script>
-   
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        	
+        	//draggable
+        	
+        	$(document).ready(function () {
+				$(function() {
+			    	$( "#draggable" ).draggable();
+			 	});
+			});
+        </script>
+       		
+
 	</body>
 </html>

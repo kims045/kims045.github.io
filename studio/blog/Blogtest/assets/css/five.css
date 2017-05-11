@@ -6,6 +6,7 @@
 
 header {
     height: 20vh;
+    width: 500vw;
   	font-family: 'Atomic Age', cursive;
 	/*font-family: 'Open Sans Condensed', sans-serif;
 	font-family: 'Rajdhani', sans-serif;
@@ -16,41 +17,90 @@ header {
 	z-index: 1000;
 	margin-top: -53px;
 	margin-left: 10vw;
-	background-color: transparent;
+	/*background-color: ;*/
 }
 
 footer {
+  	width: 100%;
 	position: fixed;
-	display: block;
-	z-index: 1000;
+	z-index: 800;
 	bottom: 0;
+	background-color: #D03E28;
 }
 
-.textbox {
+a {
+	margin-left: 15vw;
+    font-family: 'Monda', sans-serif;
+    color: white;
+    background-color: #D03E28;
+
+}
+a:link,  a:visited {
+    text-decoration: none;
+}
+a:hover {
+    
+    transition: background 1s;   
+}
+
+a:hover {
+    color: white;
+    border-color: white;
+}
+
+.a {
+	width: 25vw;
+}
+#flip {
+	margin-top: 24vh;
+}
+#panel, #flip {
+      padding: 10px;
+      text-align: center;
+      background-color: #D03E28;
+      border: solid 1px #D03E28;
+      width: 25vw;
+      margin-left: 73vw;
+      font-family: 'Monda', sans-serif;
+
+  }
+
+#panel {
+      padding: 10px;
+      padding-top: 2vh;
+      display: none;
+
+  }
+
+/*.textbox {
 	width: 40%;
-	height: 300vh;
+	height: 100%;
 	margin-left: 30vw;
-	background-color: #FFC9C0;
+	background-color: #D03E28;
 	position: fixed;
 	z-index: 10;
 	position: absolute;
 
-}
+}*/
 body {
 	font-family: 'Monda', sans-serif;
 	color: brown;
+	height: 180vh;
 }
 
 .textone {
-	width: 30vw;
+	width: 63vw;
 	z-index: 100;
 	position: absolute;
 	margin-left: 10vw;
 	margin-top: 15vh;
-	font-size: 1.5vw;
+	font-size: 1.3vw;
+	font-family: 'Monda', sans-serif;
 	background-color: transparent;
 }
-.texttwo {
+
+
+/*.texttwo {
 	width: 30vw;
 	z-index: 100;
 	position: absolute;
@@ -74,16 +124,6 @@ body {
 	position: absolute;
 	margin-left: 60vw;
 	margin-top: 175vh;
-	font-size: 1.5vw;
-	background-color: transparent;
-}
-/*
-.textfive {
-	width: 30vw;
-	z-index: 100;
-	position: absolute;
-	margin-left: 10vw;
-	margin-top: 220vh;
 	font-size: 1.5vw;
 	background-color: transparent;
 }

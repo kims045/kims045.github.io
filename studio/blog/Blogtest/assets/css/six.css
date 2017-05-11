@@ -1,4 +1,5 @@
-* {	background-color: #FFF7D6;
+* {	
+	background-color: #FFF7D6;
     margin: auto;
     padding: auto;
    /* background-color: #D03E28;*/
@@ -14,77 +15,178 @@ header {
 	font-size: 4vw;
 	position: fixed; 
 	z-index: 1000;
-	margin-top: -53px;
+	margin-top: -5vh;
 	margin-left: 10vw;
-	background-color: transparent;
+	background-color: #FFF7D6;
 }
 
 footer {
+  	width: 500vw;
 	position: fixed;
-	display: block;
-	z-index: 1000;
+	z-index: 800;
 	bottom: 0;
+	background-color: #D03E28;
+}
+
+a {
+	margin-left: 15vw;
+    font-family: 'Monda', sans-serif;
+    color: white;
+    background-color: #D03E28;
+
+}
+a:link,  a:visited {
+    text-decoration: none;
+}
+a:hover {
+    
+    transition: background 1s;   
+}
+
+a:hover {
+    color: white;
+    border-color: white;
 }
 
 .textbox {
 	width: 40%;
-	height: 300vh;
+	margin-top: 10vh;
 	margin-left: 30vw;
-	background-color: #FFC9C0;
+	background-color: ;
 	position: fixed;
 	z-index: 10;
 	position: absolute;
-
 }
+
+.sibal {
+	margin-top: 20vh;
+	width: 25vw;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 100px;
+	background-color: #FFF7D6;
+
+	
+}
+
 body {
 	font-family: 'Monda', sans-serif;
-	color: brown;
+	font-size: 1.3vw;
+	color: #D03E28;
 }
 
-.textone {
-	width: 30vw;
-	z-index: 100;
-	position: absolute;
-	margin-left: 10vw;
-	margin-top: 15vh;
-	font-size: 1.5vw;
+img {
+	width: 25vw;
 	background-color: transparent;
+	border-style: solid;
+	border-color: black;
 }
-.texttwo {
-	width: 30vw;
-	z-index: 100;
+	.imageBoxa {
+		width: 0vw;
+		z-index: 100;
+		position: relative;
+		margin-left: 10vw;
+		margin-top: 20vh;
+		font-size: 1.5vw;
+		background-color: black;
+		display: block;
+	}
+
+.imageBoxa .hoverImg {
+	width: 0vw;
 	position: absolute;
-	margin-left: 60vw;
-	margin-top: 30vh;
-	font-size: 1.5vw;
-	background-color: transparent;
-}
-.textthree {
-	width: 30vw;
-	z-index: 100;
-	position: absolute;
-	margin-left: 10vw;	
-	margin-top: 105vh;
-	font-size: 1.5vw;
-	background-color: transparent;
-}
-.textfour {
-	width: 30vw;
-	z-index: 100;
-	position: absolute;
-	margin-left: 60vw;
-	margin-top: 175vh;
-	font-size: 1.5vw;
-	background-color: transparent;
+	display: none;
+	
 }
 
-.textfive {
-	width: 30vw;
-	z-index: 100;
-	position: absolute;
-	margin-left: 10vw;
-	margin-top: 220vh;
-	font-size: 1.5vw;
-	background-color: transparent;
+.imageBoxa:hover .hoverImg {
+	display: block;
 }
+
+	.imageBoxb{
+		width: 0vw;
+		z-index: 100;
+		position: relative;
+		margin-left: 65vw;
+		margin-top: 15vh;
+		font-size: 1.5vw;
+		background-color: transparent;
+		display: block;
+	}
+.imageBoxb .hoverImg {
+	width: 0vw;
+	position: absolute;
+	display: none;
+	
+}
+
+.imageBoxb:hover .hoverImg {
+	display: block;
+}
+
+	.imageBoxc {
+		width: 0vw;
+		z-index: 100;
+		position: relative;
+		margin-left: 10vw;
+		margin-top: 15vh;
+		font-size: 1.5vw;
+		background-color: transparent;
+		display: block;
+	}
+
+.imageBoxc .hoverImg {
+	width: 0vw;
+	position: absolute;
+	display: none;
+	
+}
+
+.imageBoxc:hover .hoverImg {
+	display: block;
+}
+
+	.imageBoxd {
+		width: 0vw;
+		z-index: 100;
+		position: absolute;
+		margin-left: 65vw;	
+		margin-top: 15vh;
+		font-size: 1.5vw;
+		background-color: transparent;
+	}
+
+.imageBoxd .hoverImg {
+	width: 0vw;
+	position: absolute;
+	display: none;
+	
+}
+
+.imageBoxd:hover .hoverImg {
+	display: block;
+}
+
+	.imageBoxe {
+		width: 0vw;
+		z-index: 100;
+		position: absolute;
+		margin-left: 10vw;
+		margin-top: 85vh;
+		font-size: 1.5vw;
+		background-color: transparent;
+	}
+
+.imageBoxe .hoverImg {
+	width: .1vw;
+	position: absolute;
+	display: none;
+
+}
+
+.imageBoxe:hover .hoverImg {
+	display: block;
+}
+
+
 
