@@ -318,7 +318,8 @@ body {
     }
     .te {
         width: 70%;
-        margin-left: 33vw;
+        margin-left: 15vw;
+        text-align: left;
 
         /*margin-bottom: 500vh;*/
     }
