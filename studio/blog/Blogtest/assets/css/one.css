@@ -68,7 +68,7 @@ body {
 	font-family: 'Monda', sans-serif;
 	color: #D03E28;
 	padding: 25px;
-  	height: 280vh;
+  	/*height: 280vh;*/
 }
 
 .textone {
@@ -77,7 +77,7 @@ body {
 	position: absolute;
 	margin-left: 17vw;
 	margin-top: 15vh;
-	font-size: 1.5vw;
+	/*font-size: 1.5vw;*/
 	background-color: transparent;
 }
 .texttwo {
@@ -87,7 +87,7 @@ body {
 	position: absolute;
 	margin-left: 65vw;
 	margin-top: 30vh;
-	font-size: 1.5vw;
+	/*font-size: 1.5vw;*/
 	background-color: transparent;
 }
 
@@ -100,7 +100,7 @@ body {
 	position: absolute;
 	margin-left: 17vw;	
 	margin-top: 105vh;
-	font-size: 1.5vw;
+	/*font-size: 1.5vw;*/
 	background-color: transparent;
 }
 .textfour {
@@ -110,7 +110,7 @@ body {
 	position: absolute;
 	margin-left: 65vw;
 	margin-top: 175vh;
-	font-size: 1.5vw;
+	/*font-size: 1.5vw;*/
 	background-color: transparent;
 }
 
@@ -120,7 +120,7 @@ body {
 	position: absolute;
 	margin-left: 17vw;
 	margin-top: 220vh;
-	font-size: 1.5vw;
+	/*font-size: 1.5vw;*/
 	background-color: transparent;
 }
 
@@ -182,114 +182,189 @@ body {
 	color: #FFF7D6;
 }
 
-.textone {
-  	animation-duration: 3s;
-  	animation-name: slidein;
+@media only screen and (min-width: 500px) {
+
+	.textone {
+	  	animation-duration: 3s;
+	  	animation-name: slidein;
+	}
+
+	@keyframes slidein {
+	  from {
+	   	width: 30vw;
+		margin-left: 70vw;
+		margin-top: 15vh;
+		font-size: 1.5vw;
+	  }
+
+	  to {
+		width: 30vw;
+		z-index: 100;
+		position: absolute;
+		margin-left: 17vw;
+		margin-top: 15vh;
+		font-size: 1.5vw; 
+	  }
+	}
+
+	.texttwo {
+	  animation-duration: 3s;
+	  animation-name: twomove;
+	}
+
+	@keyframes twomove {
+	  from {
+	   	width: 30vw;
+		margin-left: 20vw;
+		margin-top: 30vh;
+		font-size: 1.5vw;
+	  }
+
+	  to {
+		width: 30vw;
+		margin-left: 65vw;
+		margin-top: 30vh;
+		font-size: 1.5vw;
+		
+	  }
+	}
+
+	.textthree {
+	  animation-duration: 3s;
+	  animation-name: threemove;
+	}
+
+	@keyframes threemove {
+	  from {
+	   	width: 30vw;
+		margin-left: 70vw;
+		margin-top: 105vh;
+		font-size: 1.5vw;
+	  }
+
+	  to {
+		width: 30vw;
+		margin-left: 17vw;	
+		margin-top: 105vh;
+		font-size: 1.5vw;
+	  }
+	}
+
+	.textfour {
+	  animation-duration: 3s;
+	  animation-name: fourmove;
+	}
+
+	@keyframes fourmove {
+	  from {
+	   	width: 30vw;
+		margin-left: 20vw;
+		margin-top: 175vh;
+		font-size: 1.5vw;
+	  }
+
+	  to {
+		width: 30vw;
+		margin-left: 65vw;
+		margin-top: 175vh;
+		font-size: 1.5vw;
+	  }
+	}
+
+	.textfive {
+	  animation-duration: 3s;
+	  animation-name: lastmove;
+	}
+
+	@keyframes lastmove {
+	  from {
+	   	width: 30vw;
+		margin-left: 70vw;
+		margin-top: 220vh;
+		font-size: 1.5vw;
+	  }
+
+	  to {
+		width: 30vw;
+		margin-left: 17vw;
+		margin-top: 220vh;
+		font-size: 1.5vw;
+
+	  }
+	}
 }
 
-@keyframes slidein {
-  from {
-   	width: 30vw;
-	margin-left: 70vw;
-	margin-top: 15vh;
-	font-size: 1.5vw;
-  }
 
-  to {
-	width: 30vw;
-	z-index: 100;
-	position: absolute;
-	margin-left: 17vw;
-	margin-top: 15vh;
-	font-size: 1.5vw; 
-  }
+@media only screen and (max-width: 500px) {
+    .Header {
+    height: 5vh;
+    background-color: black;
+    }
+
+    .textbox{
+    	/*width: 40%;
+		height: 330vh;
+		margin-left: 60vw;
+		background-color: #D03E28;
+		position: fixed;
+		position: absolute;
+		overflow-x: hidden;*/
+		/*margin-left: 20vw;*/
+		width: 100%;
+		display: center;
+    }
+    body {
+    	overflow-x: hidden;
+    }
+    .te {
+        width: 70%;
+        margin-left: 33vw;
+
+        /*margin-bottom: 500vh;*/
+    }
+   	.textone {
+   		/*font-size: 1.5vw;*/
+   		color: #D03E28;
+   		margin-top: 1vh
+   	} 
+   	
+   	.textthree {
+   		/*font-size: 1.5vw;*/
+   		color: #D03E28;
+   		margin-top: 104vh;
+   	}
+   	
+   	.textfive {
+   		/*font-size: 1.5vw;*/
+   		color: #D03E28;
+   	}  
+    
+    .texttwo {
+        color: #D03E28;
+        margin-top: 30vh;
+       /* margin-left: 50vw;*/
+
+    }
+
+    .textfour {
+       color: #D03E28;
+       margin-top: 182vh;
+       /*margin-left: 50vw;*/
+    }
+
+
+
+    .red {
+        display: none; 
+    }
+
+    
+
+    img{
+    	display: none;
+    }
 }
 
-.texttwo {
-  animation-duration: 3s;
-  animation-name: twomove;
-}
-
-@keyframes twomove {
-  from {
-   	width: 30vw;
-	margin-left: 20vw;
-	margin-top: 30vh;
-	font-size: 1.5vw;
-  }
-
-  to {
-	width: 30vw;
-	margin-left: 65vw;
-	margin-top: 30vh;
-	font-size: 1.5vw;
-	
-  }
-}
-
-.textthree {
-  animation-duration: 3s;
-  animation-name: threemove;
-}
-
-@keyframes threemove {
-  from {
-   	width: 30vw;
-	margin-left: 70vw;
-	margin-top: 105vh;
-	font-size: 1.5vw;
-  }
-
-  to {
-	width: 30vw;
-	margin-left: 17vw;	
-	margin-top: 105vh;
-	font-size: 1.5vw;
-  }
-}
-
-.textfour {
-  animation-duration: 3s;
-  animation-name: fourmove;
-}
-
-@keyframes fourmove {
-  from {
-   	width: 30vw;
-	margin-left: 20vw;
-	margin-top: 175vh;
-	font-size: 1.5vw;
-  }
-
-  to {
-	width: 30vw;
-	margin-left: 65vw;
-	margin-top: 175vh;
-	font-size: 1.5vw;
-  }
-}
-
-.textfive {
-  animation-duration: 3s;
-  animation-name: lastmove;
-}
-
-@keyframes lastmove {
-  from {
-   	width: 30vw;
-	margin-left: 70vw;
-	margin-top: 220vh;
-	font-size: 1.5vw;
-  }
-
-  to {
-	width: 30vw;
-	margin-left: 17vw;
-	margin-top: 220vh;
-	font-size: 1.5vw;
-
-  }
-}
 
 
 

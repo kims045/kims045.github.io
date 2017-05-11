@@ -18,8 +18,11 @@ html, body, .Container {
 
 .Header {
     height: 5vh;
+    width: 100%;
     background-color: #D03E28;
-    position: fixed;
+   position: fixed;
+   /*top: 10vh;*/
+   z-index: 2;
 
 }
 

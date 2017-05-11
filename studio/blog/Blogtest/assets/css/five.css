@@ -103,6 +103,9 @@ body {
 	margin-top: 130vh;
 	margin-left: 10vw;
 }
+.textone{
+    cursor: url(../assets/media/vintage/5-1.jpg);
+    }
 
 /*.texttwo {
 	width: 30vw;
