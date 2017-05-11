@@ -99,6 +99,10 @@ body {
 	background-color: transparent;
 }
 
+#disqus_thread {
+	margin-top: 130vh;
+	margin-left: 10vw;
+}
 
 /*.texttwo {
 	width: 30vw;
