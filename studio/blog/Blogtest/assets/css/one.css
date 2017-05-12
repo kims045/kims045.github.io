@@ -24,7 +24,7 @@ header {
 }
 
 footer {
-  	width: 1000px;
+  	width: 500vw;
   	height: 5vh;
 	position: fixed;
 	z-index: 800;
@@ -56,6 +56,7 @@ a:hover {
 
 .red {
 	z-index: 900;
+	height: 230vh;
 }
 
 .textbox {
@@ -297,10 +298,10 @@ body {
 	  }
 	}
 	#disqus_thread {
-	margin-top: 310vh;
-	margin-left: 2vw;
+	margin-top: 313vh;
+	margin-left: 7vw;
 	z-index: 1000;
-	width: 60vw;
+	width: 44vw;
 
 }
 
@@ -310,6 +311,11 @@ body {
 
 
 @media only screen and (max-width: 500px) {
+    
+    .red {
+    	display: none;
+    }
+
     .header {
     height: 5vh;
     background-color: black;
