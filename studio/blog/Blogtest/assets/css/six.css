@@ -6,17 +6,17 @@
 }
 
 header {
-    height: 20vh;
+    height: 10vh;
+    width: 100vw;
   	font-family: 'Atomic Age', cursive;
 	/*font-family: 'Open Sans Condensed', sans-serif;
 	font-family: 'Rajdhani', sans-serif;
 	font-family: 'Monda', sans-serif;*/
 	color: #D03E28;
-	font-size: 4vw;
+	font-size: 2.2vw;
 	position: fixed; 
 	z-index: 1000;
-	margin-top: -5vh;
-	margin-left: 10vw;
+	padding: 30px;
 	background-color: #FFF7D6;
 }
 
@@ -63,11 +63,12 @@ a:hover {
 
 .sibal {
 	margin-top: 20vh;
-	width: 25vw;
+	width: 30vw;
 	padding-left: 40px;
 	padding-right: 40px;
 	padding-top: 100px;
 	background-color: #FFF7D6;
+	size: 20vw;
 
 	
 }
@@ -88,7 +89,7 @@ img {
 		width: 0vw;
 		z-index: 100;
 		position: relative;
-		margin-left: 10vw;
+		margin-left: 7vw;
 		margin-top: 20vh;
 		font-size: 1.5vw;
 		background-color: black;
@@ -110,7 +111,7 @@ img {
 		width: 0vw;
 		z-index: 100;
 		position: relative;
-		margin-left: 65vw;
+		margin-left: 68vw;
 		margin-top: 15vh;
 		font-size: 1.5vw;
 		background-color: transparent;
@@ -131,7 +132,7 @@ img {
 		width: 0vw;
 		z-index: 100;
 		position: relative;
-		margin-left: 10vw;
+		margin-left: 7vw;
 		margin-top: 15vh;
 		font-size: 1.5vw;
 		background-color: transparent;
@@ -153,7 +154,7 @@ img {
 		width: 0vw;
 		z-index: 100;
 		position: absolute;
-		margin-left: 65vw;	
+		margin-left: 68vw;	
 		margin-top: 15vh;
 		font-size: 1.5vw;
 		background-color: transparent;
@@ -170,26 +171,115 @@ img {
 	display: block;
 }
 
-	.imageBoxe {
-		width: 0vw;
-		z-index: 100;
-		position: absolute;
-		margin-left: 10vw;
-		margin-top: 85vh;
-		font-size: 1.5vw;
-		background-color: transparent;
+	
+
+@media only screen and (max-width: 500px) {
+    header {
+  		top:5vh;
+
+    }
+
+   	p {
+   		font-size: 2em;
+   		height: 8vh
+   		padding-left:10px;
+
+   	}
+
+   	.sibal {
+   		width: 70vw;
+   		margin-top: 10vh;
+   		margin-left: -22vw;
+   	}
+
+    
+
+    img{
+    	display: none;
+    }
+}
+
+.imageBoxa {
+  animation-duration: 2s;
+  animation-name: onemove;
+}
+
+@keyframes onemove {
+  from {
+   	width: 15vw;
+	margin-top: 20vh;
+	margin-left: -30vw;
+	
+  }
+
+  to {
+	width: 15vw;
+	margin-top: 20vh;
+	margin-left: 7vw;
+	
 	}
+  }
+.imageBoxb {
+  animation-duration: 2s;
+  animation-name: twomove;
+}
 
-.imageBoxe .hoverImg {
-	width: .1vw;
+@keyframes twomove {
+  from {
+   	width: 15vw;
+	margin-top: 15vh;
+	margin-left: 105vw;
+  }
+
+  to {
+	width: 15vw;
+	margin-top: 15vh;
+	margin-left: 68vw;
+  }
+}
+
+  .imageBoxc {
+  animation-duration: 2s;
+  animation-name: threemove;
+}
+
+@keyframes threemove {
+  from {
+   	width: 15vw;
+	margin-top: 15vh;
+	margin-left: -30vw;
+  }
+
+  to {
+	width: 15vw;
+	margin-top: 15vh;
+	margin-left: 7vw;
+  }
+}
+.imageBoxd {
+  animation-duration: 2s;
+  animation-name: fourmove;
+}
+
+@keyframes fourmove {
+  from {
+   	width: 15vw;
+	margin-top: 15vh;
+	margin-left: 105vw;
+  }
+
+  to {
+	width: 15vw;
+	margin-top: 15vh;
+	margin-left: 68vw;
+  }
+}
+.cite {
+	width: 40vw;
+	z-index: 910;
 	position: absolute;
-	display: none;
-
+	/*margin-top: 200vh;*/
+	font-size: .5em;
+	background-color: transparent;
+	color: #D03E28;
 }
-
-.imageBoxe:hover .hoverImg {
-	display: block;
-}
-
-
-
