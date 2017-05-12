@@ -171,7 +171,11 @@ img {
 	display: block;
 }
 
-	
+#disqus_thread {
+	width: 70vw;
+	margin-top: 63vh;
+	margin-left: 4vw;
+}
 
 @media only screen and (max-width: 500px) {
     header {
@@ -283,3 +287,5 @@ img {
 	background-color: transparent;
 	color: #D03E28;
 }
+
+

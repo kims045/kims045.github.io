@@ -224,13 +224,22 @@ body {
   }
 
   to {
-width: 30vw;
+	width: 30vw;
 	z-index: 920;
 	position: absolute;
 	margin-left: 5vw;	
 	margin-top: 135vh;
   }
 }
+#disqus_thread {
+	margin-top: 201vh;
+	margin-left: 42vw;
+	z-index: 1000;
+	width: 52vw;
+
+}
+
+
 }
 
 

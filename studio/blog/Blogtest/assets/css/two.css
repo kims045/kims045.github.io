@@ -176,3 +176,10 @@ a:hover {
 	color:#D03E28;
 
 }
+
+#disqus_thread {
+	width: 24vw;
+	margin-top: 105vh;
+	margin-left: 64vw;
+}
+

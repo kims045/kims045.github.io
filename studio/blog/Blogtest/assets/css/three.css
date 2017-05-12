@@ -337,6 +337,16 @@ body {
   }
 }
 
+#disqus_thread {
+	width: 39vw;
+	margin-top: 55vh;
+	margin-left: 31vw;
+	z-index: 100;
+	position: absolute;
+}
+
+
+
 @media only screen and (max-width: 500px) {
 	.classic {
 		display: none;
@@ -359,4 +369,5 @@ body {
 		font-size: 3vw;
 		height: 400vh;
 	}
+
 

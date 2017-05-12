@@ -113,6 +113,16 @@ body {
 	background-color: transparent;
 	text-align: left;
 }
+}
+
+#disqus_thread {
+	margin-top: 30vh;
+	margin-left: -200vw;
+	z-index: 1000;
+	width: 52vw;
+
+}
+
 
 .textone {
 	  animation-duration: 2s;
@@ -157,5 +167,10 @@ body {
 	
 }
 
+#disqus_thread {
+	width: 65vw;
+	margin-top: 87vh;
+	margin-left: 35vw;
+}
 
 
