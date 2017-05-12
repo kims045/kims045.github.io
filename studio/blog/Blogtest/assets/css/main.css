@@ -102,6 +102,7 @@ img:hover {
     animation: movingTopToBottom 3s;
 -webkit-animation: movingTopToBottom ease 3s;
     position: absolute;
+    color: #D03E28;
 }
 .texttwo {
     display: none;
@@ -115,6 +116,7 @@ img:hover {
     animation: movingTopToBottom 3s;
 -webkit-animation: movingTopToBottom ease 3s;
     position: absolute;
+    color: #D03E28;
 }
 .textthree {
     display: none;
@@ -128,6 +130,7 @@ img:hover {
    animation: movingTopToBottom 3s;
 -webkit-animation: movingTopToBottom ease 3s;
     position: absolute;
+    color: #D03E28;
 }
 .textfour {
     display: none;
@@ -141,6 +144,7 @@ img:hover {
    animation: movingTopToBottom 3s;
 -webkit-animation: movingTopToBottom ease 3s;
     position: absolute;
+    color: #D03E28;
 }
 .textfive {
     display: none;
@@ -154,6 +158,7 @@ img:hover {
    animation: movingTopToBottom 3s;
 -webkit-animation: movingTopToBottom ease 3s;
     position: absolute;
+    color: #D03E28;
 }
 .textsix {
     display: none;
@@ -167,6 +172,7 @@ img:hover {
    animation: movingTopToBottom 3s;
 -webkit-animation: movingTopToBottom ease 3s;
     position: absolute;
+    color: #D03E28;
 }
 .textseven {
     display: none;
@@ -180,6 +186,7 @@ img:hover {
    animation: movingTopToBottom 3s;
 -webkit-animation: movingTopToBottom ease 3s;
     position: absolute;
+    color: #D03E28;
 }
 .texteight {
     display: none;
@@ -193,6 +200,7 @@ img:hover {
    animation: movingTopToBottom 3s;
 -webkit-animation: movingTopToBottom ease 3s;
     position: absolute;
+    color: #D03E28;
 }
 
 
