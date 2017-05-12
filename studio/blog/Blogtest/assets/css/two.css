@@ -176,10 +176,62 @@ a:hover {
 	color:#D03E28;
 
 }
-
-#disqus_thread {
+@media only screen and (min-width: 500px) {
+	#disqus_thread {
 	width: 24vw;
-	margin-top: 105vh;
+	margin-top: 31vh;
 	margin-left: 64vw;
 }
+}
+@media only screen and (max-width: 500px) {
+	#disqus_thread {
+	display: none;
+}
+}
+
+
+#disqus_thread {
+	animation-duration: 3s;
+  	animation-name: comments;
+}
+
+
+@keyframes comments {
+  from {
+   	width: 24vw;
+	margin-left: 120vw;
+	margin-top: 31vh;
+
+
+  }
+
+  to {
+	width: 24vw;
+	margin-left: 64vw;
+	margin-top: 31vh;
+
+
+  }
+}
+
+.cite {
+	width: 30vw;
+	z-index: 920;
+	position: absolute;
+	margin-left: 34vw;
+	margin-top: 15vh;
+	font-size: .5em;
+	background-color: transparent;
+	color:#D03E28;
+
+}
+
+
+
+
+
+
+
+
+
 
