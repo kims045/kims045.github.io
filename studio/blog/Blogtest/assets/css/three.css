@@ -340,12 +340,13 @@ body {
 	#disqus_thread {
 	display: none;
 }
+}
 
 #disqus_thread {
 	width: 34vw;
 	margin-top: 55vh;
 	margin-left: 33vw;
-	z-index: 100;
+	z-index: 10000;
 	position: absolute;
 	margin-bottom: 10vh;
 }
