@@ -57,7 +57,7 @@ a:hover {
 
 .textbox {
 	width: 40%;
-	height: 200vh;
+	height: 240vh;
 	margin-top: 25vh;
 	margin-left: 30vw;
 	background-color: #FFF7D6;
@@ -338,9 +338,9 @@ body {
 }
 
 #disqus_thread {
-	width: 39vw;
+	width: 33vw;
 	margin-top: 55vh;
-	margin-left: 31vw;
+	margin-left: 34vw;
 	z-index: 100;
 	position: absolute;
 }
