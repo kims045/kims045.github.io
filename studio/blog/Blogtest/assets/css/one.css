@@ -316,6 +316,9 @@ body {
     	display: none;
     }
 
+    #disqus_thread {
+    	display: none;
+    }
     .header {
     height: 5vh;
     background-color: black;

@@ -176,6 +176,13 @@ a:hover {
 	color:#D03E28;
 
 }
+
+@media only screen and (max-width: 500px) {
+	#disqus_thread {
+	display: none;
+}
+}
+
 @media only screen and (min-width: 500px) {
 	#disqus_thread {
 	width: 24vw;
@@ -183,11 +190,7 @@ a:hover {
 	margin-left: 64vw;
 }
 }
-@media only screen and (max-width: 500px) {
-	#disqus_thread {
-	display: none;
-}
-}
+
 
 
 #disqus_thread {

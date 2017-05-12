@@ -351,9 +351,13 @@ body {
 		width: 70%;
 		margin-left: -15vw;
 		font-size: 1.3em;
-		height: 600vh;
+		height: 710vh;
 }
 
+	#disqus_thread {
+	display: none;
+}
+}
 
 .cite {
 	background-color: #D03E28;

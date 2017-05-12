@@ -167,7 +167,9 @@ body {
 img{
     	display: none;
     }
-
+	#disqus_thread {
+	display: none;
+}
    	
 }
 
