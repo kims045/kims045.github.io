@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+}
+
+body {
+	overflow: hidden;
+}
+
+div {
+	margin: 60px;
+}
+a { text-decoration: none; } 
+
+img {
+	width: 65vw;
+	position:absolute;
+	z-index: 1;
+	margin: 20px;
+}
+
+
+.title {
+	padding-top: 20vh;
+	position: relative;
+	z-index: 100;
+}
+
+.text {
+	width: 35vw;
+	margin-left: 45vw;
+	margin-top: 100px;
+}
+
+.box {
+	background-color: #D03E28;
+	width: 30vw;
+	height: 100vh;
+	margin-left: 60vw;
+	
+	z-index:-2;
+}
+
+
+a {
+    font-family: 'Monda', sans-serif;
+    color: #FFC9C0;
+}
+a:link,  a:visited {
+    text-decoration: none;
+}
+a:hover {
+    
+    transition: background 1s;   
+}
+
+a:hover {
+    color: white;
+    border-color: white;
+}
+
+
+.imagemove {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 65vw; 
+  }
+
+  to {
+	margin-left: 20px;
+    width: 65vw; 
+  }
+}
+
+.slide {
+	animation-duration: 3s;
+  	animation-name: titlefromright;
+}
+
+@keyframes titlefromright {
+  from {
+	width: 35vw;
+	margin-top: 100px;
+	margin-left: 90vw;
+
+  }
+
+  to {
+	width: 35vw;
+	margin-top: 100px;
+	margin-left: 45vw;
+  }
+}
+
+.move {
+	animation-duration: 3s;
+  	animation-name: comeup;
+}
+
+@keyframes comeup {
+  from {
+	width: 30vw;
+	height: 10vh;
+	margin-left: 60vw;
+
+  }
+
+  to {
+	width: 30vw;
+	height: 100vh;
+	margin-left: 60vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

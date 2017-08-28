@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+html, body, .Container {
+    height: 100%;
+
+}
+
+    .Container:before {
+        content: '';
+        height: 100%;
+        float: left;
+    }
+
+.Header {
+    height: 5vh;
+    width: 100%;
+    background-color: #D03E28;
+   position: fixed;
+   /*top: 10vh;*/
+   z-index: 2;
+
+}
+
+.Content {
+    position: relative;
+    z-index: 1;
+}
+
+.Content:after {
+        content: '';
+        clear: both;
+        display: block;
+}
+
+.Wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.Wrapper > div {
+    height: 200%;
+}
+
+.Left {
+    background-color: white;
+    border-style: solid;
+    border-color: #D03E28;
+    overflow: auto;
+    width: 50%;
+    height: 100%;
+}
+
+.leftbox {
+    width: 25%;
+    background-color: #D03E28;
+}
+
+.Right { 
+    background-color: white;
+    float: right;
+    margin-left: 10px;
+    width: 40%;
+    overflow: hidden;
+}
+
+/*.redline {
+    height: 100%;
+    width: 10vw;
+    border-style: solid;
+    border-color: #D03E28;
+    z-index: -1;
+}
+*/
+img {
+    width: 20vw;
+    padding:10px;
+    border:4px solid #D03E28;
+    background-color: white;
+}
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+
+.textone {
+    display: none;
+    -webkit-transform: rotate(-270deg);
+    margin-top: 70vh;
+    margin-right: 50vh;
+    width: 60vw;
+    font-family: 'Atomic Age', cursive;
+    font-size: 1.5em;
+    position: absolute;
+   
+    animation: movingTopToBottom 3s;
+-webkit-animation: movingTopToBottom ease 3s;
+    position: absolute;
+    color: #D03E28;
+}
+.texttwo {
+    display: none;
+    -webkit-transform: rotate(-270deg);
+    margin-top: 70vh;
+    margin-right: 50vh;
+    width: 60vw;
+    font-family: 'Atomic Age', cursive;
+    font-size: 1.5em;
+    position: absolute;
+    animation: movingTopToBottom 3s;
+-webkit-animation: movingTopToBottom ease 3s;
+    position: absolute;
+    color: #D03E28;
+}
+.textthree {
+    display: none;
+    -webkit-transform: rotate(-270deg);
+    margin-top: 70vh;
+    margin-right: 50vh;
+    width: 60vw;
+    font-family: 'Atomic Age', cursive;
+    font-size: 1.5em;
+    position: absolute;
+   animation: movingTopToBottom 3s;
+-webkit-animation: movingTopToBottom ease 3s;
+    position: absolute;
+    color: #D03E28;
+}
+.textfour {
+    display: none;
+    -webkit-transform: rotate(-270deg);
+    margin-top: 70vh;
+    margin-right: 50vh;
+    width: 60vw;
+    font-family: 'Atomic Age', cursive;
+    font-size: 1.5em;
+    position: absolute;
+   animation: movingTopToBottom 3s;
+-webkit-animation: movingTopToBottom ease 3s;
+    position: absolute;
+    color: #D03E28;
+}
+.textfive {
+    display: none;
+    -webkit-transform: rotate(-270deg);
+    margin-top: 70vh;
+    margin-right: 50vh;
+    width: 60vw;
+    font-family: 'Atomic Age', cursive;
+    font-size: 1.5em;
+    position: absolute;
+   animation: movingTopToBottom 3s;
+-webkit-animation: movingTopToBottom ease 3s;
+    position: absolute;
+    color: #D03E28;
+}
+.textsix {
+    display: none;
+    -webkit-transform: rotate(-270deg);
+    margin-top: 70vh;
+    margin-right: 50vh;
+    width: 60vw;
+    font-family: 'Atomic Age', cursive;
+    font-size: 1.5em;
+    position: absolute;
+   animation: movingTopToBottom 3s;
+-webkit-animation: movingTopToBottom ease 3s;
+    position: absolute;
+    color: #D03E28;
+}
+.textseven {
+    display: none;
+    -webkit-transform: rotate(-270deg);
+    margin-top: 70vh;
+    margin-right: 50vh;
+    width: 60vw;
+    font-family: 'Atomic Age', cursive;
+    font-size: 1.5em;
+    position: absolute;
+   animation: movingTopToBottom 3s;
+-webkit-animation: movingTopToBottom ease 3s;
+    position: absolute;
+    color: #D03E28;
+}
+.texteight {
+    display: none;
+    -webkit-transform: rotate(-270deg);
+    margin-top: 70vh;
+    margin-right: 50vh;
+    width: 60vw;
+    font-family: 'Atomic Age', cursive;
+    font-size: 1.5em;
+    position: absolute;
+   animation: movingTopToBottom 3s;
+-webkit-animation: movingTopToBottom ease 3s;
+    position: absolute;
+    color: #D03E28;
+}
+
+
+
+
+.textone { 
+    animation-name: anim-1;
+}
+.texttwo { 
+    animation-name: anim-1;
+}
+.textthree { 
+    animation-name: anim-1;
+}
+.textfour { 
+    animation-name: anim-1;
+}
+.textfive { 
+    animation-name: anim-1;
+}
+.textsix { 
+    animation-name: anim-1;
+}
+.textseven { 
+    animation-name: anim-1;
+}
+.texteight { 
+    animation-name: anim-1;
+}
+
+
+/*img.one:hover + .text {
+    display: block;
+}*/
+.one {
+    margin-left: 5vw;
+    margin-top: 10vh;
+    width: 18vw;
+}
+.two {
+    margin-left: 18vw;
+    margin-top: 10vh;
+    width: 21vw;
+}
+.three {
+    margin-left: 8vw;
+    margin-top: 10vh;
+}
+.four {
+    margin-left: 30vw;
+    margin-top: 10vh;
+    width: 17vw;
+}
+.five {
+    margin-left: 4vw;
+    margin-top: 10vh;
+    width: 20vw;
+}
+.six {
+    margin-left: 18vw;
+    margin-top: 10vh;
+    width: 25vw;
+}
+.seven {
+    margin-left: 9vw;
+    margin-top: 10vh;
+    width: 17vw;
+}
+.eight {
+    margin-left: 15vw;
+    margin-top: 10vh;
+}
+
+
+/*@keyframes anim-1 {
+  0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}*/
+
+@keyframes anim-1 {
+  0% {
+    top: 50vh;
+  }
+  100% {
+    top: 1vh;
+  }
+}
+/*#divTAReviews {
+  animation: movingTopToBottom 3s ease infinite;
+  -webkit-animation: movingTopToBottom ease 3s infinite;
+  position: absolute;
+}*/
+
+
+
+
+
+
+div::-webkit-scrollbar {
+    width: .3em;
+}
+
+div::-webkit-scrollbar-track {
+    
+}
+ 
+div::-webkit-scrollbar-thumb {
+  background-color: #D03E28;
+  /*outline: 1px dotted;*/
+}
+
+
+a {
+    font-family: 'Monda', sans-serif;
+    color: white;
+}
+a:link,  a:visited {
+    text-decoration: none;
+}
+a:hover {
+    
+    transition: background 1s;   
+}
+
+a:hover {
+    color: white;
+    border-color: white;
+}
+    /*font-family: 'Atomic Age', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Monda', sans-serif;*/
+
+
+@media only screen and (max-width: 500px) {
+    .Header {
+    height: 5vh;
+    background-color:  #D03E28;;
+    }
+
+    .Right {
+        display: none; 
+    }
+
+    .Wrapper {
+    text-align: center;
+/*    margin-left: 330px;
+*/    }
+    .Left {
+        width: 100%;
+    }
+
+    .all {
+        display: none;
+    }
+
+    .main-img {
+        width: 50vw;
+    }
+}
+
+
+
+
+
+
