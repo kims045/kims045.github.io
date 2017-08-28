@@ -1,0 +1,294 @@
+* {	
+	background-color: #FFF7D6;
+    margin: auto;
+    padding: auto;
+   /* background-color: #D03E28;*/
+}
+
+header {
+    height: 10vh;
+    width: 100vw;
+  	font-family: 'Atomic Age', cursive;
+	/*font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
+	font-family: 'Monda', sans-serif;*/
+	color: #D03E28;
+	font-size: 2.2vw;
+	position: fixed; 
+	z-index: 1000;
+	padding: 30px;
+	background-color: #FFF7D6;
+}
+
+footer {
+  	width: 500vw;
+  	height: 5vh;
+	position: fixed;
+	z-index: 800;
+	bottom: 0;
+	background-color: #D03E28;
+	margin-left: -10vw;
+}
+
+a {
+	margin-left: 15vw;
+    font-family: 'Monda', sans-serif;
+    color: white;
+    background-color: #D03E28;
+    font-size: 1.3vw;
+
+}
+a:link,  a:visited {
+    text-decoration: none;
+}
+a:hover {
+    
+    transition: background 1s;   
+}
+
+a:hover {
+    color: white;
+    border-color: white;
+}
+
+.textbox {
+	width: 40%;
+	margin-top: 10vh;
+	margin-left: 30vw;
+	background-color: ;
+	position: fixed;
+	z-index: 10;
+	position: absolute;
+}
+
+.sibal {
+	margin-top: 20vh;
+	width: 30vw;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 100px;
+	background-color: #FFF7D6;
+	size: 20vw;
+
+	
+}
+
+body {
+	font-family: 'Monda', sans-serif;
+	font-size: 1.3vw;
+	color: #D03E28;
+}
+
+img {
+	width: 25vw;
+	background-color: transparent;
+	border-style: solid;
+	border-color: black;
+}
+	.imageBoxa {
+		width: 0vw;
+		z-index: 100;
+		position: relative;
+		margin-left: 7vw;
+		margin-top: 20vh;
+		font-size: 1.5vw;
+		background-color: black;
+		display: block;
+	}
+
+.imageBoxa .hoverImg {
+	width: 0vw;
+	position: absolute;
+	display: none;
+	
+}
+
+.imageBoxa:hover .hoverImg {
+	display: block;
+}
+
+	.imageBoxb{
+		width: 0vw;
+		z-index: 100;
+		position: relative;
+		margin-left: 68vw;
+		margin-top: 15vh;
+		font-size: 1.5vw;
+		background-color: transparent;
+		display: block;
+	}
+.imageBoxb .hoverImg {
+	width: 0vw;
+	position: absolute;
+	display: none;
+	
+}
+
+.imageBoxb:hover .hoverImg {
+	display: block;
+}
+
+	.imageBoxc {
+		width: 0vw;
+		z-index: 100;
+		position: relative;
+		margin-left: 7vw;
+		margin-top: 15vh;
+		font-size: 1.5vw;
+		background-color: transparent;
+		display: block;
+	}
+
+.imageBoxc .hoverImg {
+	width: 0vw;
+	position: absolute;
+	display: none;
+	
+}
+
+.imageBoxc:hover .hoverImg {
+	display: block;
+}
+
+	.imageBoxd {
+		width: 0vw;
+		z-index: 100;
+		position: absolute;
+		margin-left: 68vw;	
+		margin-top: 15vh;
+		font-size: 1.5vw;
+		background-color: transparent;
+	}
+
+.imageBoxd .hoverImg {
+	width: 0vw;
+	position: absolute;
+	display: none;
+	
+}
+
+.imageBoxd:hover .hoverImg {
+	display: block;
+}
+
+#disqus_thread {
+	width: 60vw;
+	margin-top: 70vh;
+	margin-left: 4vw;
+}
+
+@media only screen and (max-width: 500px) {
+    header {
+  		top:5vh;
+
+    }
+
+   	p {
+   		font-size: 2em;
+   		height: 8vh
+   		padding-left:10px;
+
+   	}
+
+   	.sibal {
+   		width: 70vw;
+   		margin-top: 10vh;
+   		margin-left: -22vw;
+   	}
+
+    
+
+    img{
+    	display: none;
+    }
+    #disqus_thread {
+	display: none;
+}
+}
+
+.imageBoxa {
+  animation-duration: 2s;
+  animation-name: onemove;
+}
+
+@keyframes onemove {
+  from {
+   	width: 15vw;
+	margin-top: 20vh;
+	margin-left: -30vw;
+	
+  }
+
+  to {
+	width: 15vw;
+	margin-top: 20vh;
+	margin-left: 7vw;
+	
+	}
+  }
+.imageBoxb {
+  animation-duration: 2s;
+  animation-name: twomove;
+}
+
+@keyframes twomove {
+  from {
+   	width: 15vw;
+	margin-top: 15vh;
+	margin-left: 105vw;
+  }
+
+  to {
+	width: 15vw;
+	margin-top: 15vh;
+	margin-left: 68vw;
+  }
+}
+
+  .imageBoxc {
+  animation-duration: 2s;
+  animation-name: threemove;
+}
+
+@keyframes threemove {
+  from {
+   	width: 15vw;
+	margin-top: 15vh;
+	margin-left: -30vw;
+  }
+
+  to {
+	width: 15vw;
+	margin-top: 15vh;
+	margin-left: 7vw;
+  }
+}
+.imageBoxd {
+  animation-duration: 2s;
+  animation-name: fourmove;
+}
+
+@keyframes fourmove {
+  from {
+   	width: 15vw;
+	margin-top: 15vh;
+	margin-left: 105vw;
+  }
+
+  to {
+	width: 15vw;
+	margin-top: 15vh;
+	margin-left: 68vw;
+  }
+}
+.cite {
+	width: 40vw;
+	z-index: 910;
+	position: absolute;
+	/*margin-top: 200vh;*/
+	font-size: .5em;
+	background-color: transparent;
+	color: #D03E28;
+}
+
+
